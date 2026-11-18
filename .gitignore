@@ -37,9 +37,7 @@ Thumbs.db
 # ------------------------------
 # Model Checkpoints / Large Files
 # ------------------------------
-checkpoints/*
-!checkpoints/config.json
-*.pt
+checkpoints/stage2_t5/
 *.pth
 *.bin
 *.safetensors

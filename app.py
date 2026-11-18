@@ -538,14 +538,12 @@ def main():
         missing_files.append(f"Vocabulary: {VOCAB_PATH}")
     if not os.path.exists(CONFIG_PATH):
         missing_files.append(f"Config: {CONFIG_PATH}")
-    if not os.path.exists(STAGE2_MODEL_DIR):
-        missing_files.append(f"Stage 2 model: {STAGE2_MODEL_DIR}")
 
     if missing_files:
         st.error("❌ **Model files not found!**")
         for m in missing_files:
             st.code(m)
-        st.info("Make sure you run `streamlit run app.py` from your project root folder.")
+        st.info("Make sure the checkpoints directory is present or run `python train_stage1.py`.")
         st.stop()
 
     # ── Load Models (only once) ──
