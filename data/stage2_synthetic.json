@@ -1,0 +1,4002 @@
+[
+  {
+    "input": "emotions: admiration=0.71 curiosity=0.28 optimism=0.21 intensity=0.63",
+    "target": "The feeling is multifaceted: admiration leads, with curiosity and optimism following."
+  },
+  {
+    "input": "emotions: remorse=0.60 gratitude=0.31 intensity=0.44",
+    "target": "The mood is mainly remorse, with undertones of gratitude."
+  },
+  {
+    "input": "emotions: excitement=0.81 relief=0.26 grief=0.23 intensity=0.59",
+    "target": "The feeling is multifaceted: excitement leads, with relief and grief following."
+  },
+  {
+    "input": "emotions: excitement=0.51 relief=0.36 embarrassment=0.20 intensity=0.47",
+    "target": "The feeling is multifaceted: excitement leads, with relief and embarrassment following."
+  },
+  {
+    "input": "emotions: surprise=0.83 optimism=0.40 anger=0.20 intensity=0.47",
+    "target": "Multiple emotions are at play: surprise, optimism, and anger, creating a complex emotional landscape."
+  },
+  {
+    "input": "emotions: amusement=0.54 gratitude=0.52 intensity=0.74",
+    "target": "The feeling is split between amusement and gratitude."
+  },
+  {
+    "input": "emotions: joy=0.69 disapproval=0.65 intensity=0.58",
+    "target": "disapproval and joy coexist in a balanced way."
+  },
+  {
+    "input": "emotions: annoyance=0.81 disappointment=0.60 intensity=0.33",
+    "target": "The mood is mainly annoyance, with undertones of disappointment."
+  },
+  {
+    "input": "emotions: nervousness=0.60 amusement=0.59 intensity=0.78",
+    "target": "amusement and nervousness coexist in a balanced way."
+  },
+  {
+    "input": "emotions: realization=0.64 joy=0.36 disgust=0.30 intensity=0.59",
+    "target": "Multiple emotions are at play: realization, joy, and disgust, creating a complex emotional landscape."
+  },
+  {
+    "input": "emotions: pride=0.66 intensity=0.31",
+    "target": "A soft wave of pride is present."
+  },
+  {
+    "input": "emotions: optimism=0.76 annoyance=0.58 intensity=0.66",
+    "target": "The feeling leans toward optimism, but annoyance is also clearly present."
+  },
+  {
+    "input": "emotions: sadness=0.43 fear=0.42 intensity=0.55",
+    "target": "There is an equal mix of fear and sadness."
+  },
+  {
+    "input": "emotions: desire=0.63 curiosity=0.23 intensity=0.40",
+    "target": "The feeling leans toward desire, but curiosity is also clearly present."
+  },
+  {
+    "input": "emotions: confusion=0.50 pride=0.44 sadness=0.26 intensity=0.47",
+    "target": "The feeling is multifaceted: confusion leads, with pride and sadness following."
+  },
+  {
+    "input": "emotions: love=0.65 remorse=0.05 surprise=0.02 intensity=0.50",
+    "target": "A clear wave of love is present."
+  },
+  {
+    "input": "emotions: grief=0.51 confusion=0.41 intensity=0.84",
+    "target": "A mix of grief and confusion is felt, though grief dominates."
+  },
+  {
+    "input": "emotions: caring=0.85 confusion=0.10 intensity=0.87",
+    "target": "A overwhelming wave of caring is present."
+  },
+  {
+    "input": "emotions: realization=0.77 excitement=0.26 anger=0.08 intensity=0.71",
+    "target": "The emotions are layered: primarily realization, with excitement and hints of anger."
+  },
+  {
+    "input": "emotions: sadness=0.76 optimism=0.46 intensity=0.58",
+    "target": "The heart of the feeling is sadness, softened by a touch of optimism."
+  },
+  {
+    "input": "emotions: excitement=0.40 love=0.02 intensity=0.35",
+    "target": "This carries a soft feeling of excitement."
+  },
+  {
+    "input": "emotions: remorse=0.85 relief=0.79 intensity=0.43",
+    "target": "The heart of the feeling is remorse, softened by a touch of relief."
+  },
+  {
+    "input": "emotions: excitement=0.66 grief=0.24 intensity=0.55",
+    "target": "The mood is mainly excitement, with undertones of grief."
+  },
+  {
+    "input": "emotions: approval=0.72 curiosity=0.63 disgust=0.08 intensity=0.62",
+    "target": "The feeling is multifaceted: approval leads, with curiosity and disgust following."
+  },
+  {
+    "input": "emotions: optimism=0.67 annoyance=0.62 intensity=0.49",
+    "target": "The feeling is split between optimism and annoyance."
+  },
+  {
+    "input": "emotions: grief=0.64 realization=0.62 intensity=0.59",
+    "target": "realization and grief coexist in a balanced way."
+  },
+  {
+    "input": "emotions: joy=0.55 love=0.39 intensity=0.77",
+    "target": "joy dominates the emotional landscape, with love adding nuance."
+  },
+  {
+    "input": "emotions: amusement=0.76 annoyance=0.29 relief=0.06 intensity=0.43",
+    "target": "Multiple emotions are at play: amusement, annoyance, and relief, creating a complex emotional landscape."
+  },
+  {
+    "input": "emotions: neutral=0.79 intensity=0.07",
+    "target": "There is no strong emotion detected; the mood is calm and even."
+  },
+  {
+    "input": "emotions: amusement=0.64 disappointment=0.63 intensity=0.49",
+    "target": "A tension between disappointment and amusement defines the emotional tone."
+  },
+  {
+    "input": "emotions: neutral=0.74 intensity=0.04",
+    "target": "The emotional tone is relatively neutral."
+  },
+  {
+    "input": "emotions: sadness=0.51 surprise=0.24 intensity=0.69",
+    "target": "sadness dominates the emotional landscape, with surprise adding nuance."
+  },
+  {
+    "input": "emotions: excitement=0.54 intensity=0.50",
+    "target": "The overall mood is excitement, with a clear presence."
+  },
+  {
+    "input": "emotions: surprise=0.65 confusion=0.46 intensity=0.44",
+    "target": "The mood is mainly surprise, with undertones of confusion."
+  },
+  {
+    "input": "emotions: disgust=0.59 disappointment=0.04 nervousness=0.02 intensity=0.53",
+    "target": "There is a present sense of disgust."
+  },
+  {
+    "input": "emotions: excitement=0.88 amusement=0.45 intensity=0.43",
+    "target": "excitement is the primary emotion, accompanied by amusement."
+  },
+  {
+    "input": "emotions: approval=0.90 surprise=0.03 intensity=0.57",
+    "target": "There is a present sense of approval."
+  },
+  {
+    "input": "emotions: disappointment=0.49 surprise=0.48 intensity=0.73",
+    "target": "Both disappointment and surprise are present in similar measure."
+  },
+  {
+    "input": "emotions: neutral=0.92 intensity=0.09",
+    "target": "The emotional tone is relatively neutral."
+  },
+  {
+    "input": "emotions: joy=0.85 surprise=0.61 intensity=0.63",
+    "target": "It is pleasantly shocked, mostly joy with some surprise underneath."
+  },
+  {
+    "input": "emotions: desire=0.41 relief=0.04 love=0.03 intensity=0.58",
+    "target": "A moderate undercurrent of desire runs through this."
+  },
+  {
+    "input": "emotions: disapproval=0.85 annoyance=0.72 intensity=0.79",
+    "target": "The heart of the feeling is disapproval, softened by a touch of annoyance."
+  },
+  {
+    "input": "emotions: surprise=0.83 curiosity=0.74 pride=0.38 intensity=0.58",
+    "target": "It feels a blend of surprise and curiosity, blending surprise, curiosity, and traces of pride."
+  },
+  {
+    "input": "emotions: grief=0.70 admiration=0.47 curiosity=0.21 intensity=0.70",
+    "target": "The feeling is multifaceted: grief leads, with admiration and curiosity following."
+  },
+  {
+    "input": "emotions: disgust=0.62 realization=0.60 intensity=0.67",
+    "target": "disgust and realization coexist in a balanced way."
+  },
+  {
+    "input": "emotions: joy=0.59 grief=0.42 pride=0.22 intensity=0.67",
+    "target": "A complex mix of joy, grief, and a touch of pride."
+  },
+  {
+    "input": "emotions: admiration=0.81 gratitude=0.66 intensity=0.54",
+    "target": "The heart of the feeling is admiration, softened by a touch of gratitude."
+  },
+  {
+    "input": "emotions: love=0.55 disgust=0.26 intensity=0.83",
+    "target": "There is a blend of love and disgust, with love taking the lead."
+  },
+  {
+    "input": "emotions: excitement=0.63 realization=0.55 intensity=0.33",
+    "target": "The feeling leans toward excitement, but realization is also clearly present."
+  },
+  {
+    "input": "emotions: love=0.90 approval=0.03 confusion=0.03 intensity=0.61",
+    "target": "love is the primary emotion, and it feels pronounced."
+  },
+  {
+    "input": "emotions: curiosity=0.51 joy=0.07 realization=0.03 intensity=0.52",
+    "target": "A present wave of curiosity is present."
+  },
+  {
+    "input": "emotions: disgust=0.83 joy=0.10 anger=0.10 intensity=0.88",
+    "target": "disgust is the primary emotion, and it feels overwhelming."
+  },
+  {
+    "input": "emotions: disgust=0.80 curiosity=0.07 gratitude=0.05 intensity=0.86",
+    "target": "One can feel disgust quite very strongly here."
+  },
+  {
+    "input": "emotions: sadness=0.48 surprise=0.30 intensity=0.43",
+    "target": "It is a blend of sadness and surprise, mostly sadness with some surprise underneath."
+  },
+  {
+    "input": "emotions: embarrassment=0.70 desire=0.68 intensity=0.69",
+    "target": "It is hard to tell if desire or embarrassment is stronger; both are present."
+  },
+  {
+    "input": "emotions: relief=0.61 anger=0.35 intensity=0.32",
+    "target": "It is a blend of relief and anger, mostly relief with some anger underneath."
+  },
+  {
+    "input": "emotions: joy=0.81 sadness=0.49 disgust=0.21 intensity=0.42",
+    "target": "The emotions are layered: primarily joy, with sadness and hints of disgust."
+  },
+  {
+    "input": "emotions: excitement=0.67 approval=0.35 intensity=0.55",
+    "target": "A mix of excitement and approval is felt, though excitement dominates."
+  },
+  {
+    "input": "emotions: confusion=0.76 relief=0.61 admiration=0.40 intensity=0.82",
+    "target": "The feeling is multifaceted: confusion leads, with relief and admiration following."
+  },
+  {
+    "input": "emotions: sadness=0.50 intensity=0.31",
+    "target": "The overall mood is sadness, with a quiet presence."
+  },
+  {
+    "input": "emotions: neutral=0.95 intensity=0.06",
+    "target": "No particular emotion stands out; it feels balanced and calm."
+  },
+  {
+    "input": "emotions: disgust=0.46 disappointment=0.25 desire=0.16 intensity=0.66",
+    "target": "There is disgust at the core, surrounded by disappointment and a whisper of desire."
+  },
+  {
+    "input": "emotions: excitement=0.57 confusion=0.32 intensity=0.72",
+    "target": "excitement is the primary emotion, accompanied by confusion."
+  },
+  {
+    "input": "emotions: neutral=0.92 intensity=0.11",
+    "target": "The feeling is flat and neutral, without much emotional charge."
+  },
+  {
+    "input": "emotions: pride=0.55 remorse=0.22 sadness=0.10 intensity=0.72",
+    "target": "Multiple emotions are at play: pride, remorse, and sadness, creating a complex emotional landscape."
+  },
+  {
+    "input": "emotions: embarrassment=0.58 intensity=0.23",
+    "target": "embarrassment is the primary emotion, and it feels soft."
+  },
+  {
+    "input": "emotions: desire=0.74 caring=0.63 intensity=0.35",
+    "target": "desire is the primary emotion, accompanied by caring."
+  },
+  {
+    "input": "emotions: anger=0.59 nervousness=0.07 intensity=0.78",
+    "target": "This carries a significant feeling of anger."
+  },
+  {
+    "input": "emotions: anger=0.85 realization=0.75 intensity=0.53",
+    "target": "One feels anger most strongly, but realization lingers in the background."
+  },
+  {
+    "input": "emotions: confusion=0.60 intensity=0.63",
+    "target": "The tone is unmistakably confusion, at a deep level."
+  },
+  {
+    "input": "emotions: curiosity=0.77 embarrassment=0.25 intensity=0.44",
+    "target": "A mix of curiosity and embarrassment is felt, though curiosity dominates."
+  },
+  {
+    "input": "emotions: gratitude=0.65 fear=0.64 intensity=0.80",
+    "target": "The mood is a delicate balance of fear and gratitude."
+  },
+  {
+    "input": "emotions: optimism=0.62 annoyance=0.38 excitement=0.21 intensity=0.53",
+    "target": "Multiple emotions are at play: optimism, annoyance, and excitement, creating a complex emotional landscape."
+  },
+  {
+    "input": "emotions: excitement=0.49 embarrassment=0.01 intensity=0.59",
+    "target": "A clear wave of excitement is present."
+  },
+  {
+    "input": "emotions: confusion=0.63 nervousness=0.26 love=0.22 intensity=0.67",
+    "target": "A complex mix of confusion, nervousness, and a touch of love."
+  },
+  {
+    "input": "emotions: disapproval=0.57 intensity=0.82",
+    "target": "disapproval is the primary emotion, and it feels overwhelming."
+  },
+  {
+    "input": "emotions: joy=0.54 annoyance=0.53 intensity=0.54",
+    "target": "The feeling is split between annoyance and joy."
+  },
+  {
+    "input": "emotions: pride=0.64 love=0.37 intensity=0.66",
+    "target": "A mix of pride and love is felt, though pride dominates."
+  },
+  {
+    "input": "emotions: neutral=0.79 intensity=0.03",
+    "target": "There is no strong emotion detected; the mood is calm and even."
+  },
+  {
+    "input": "emotions: realization=0.56 fear=0.32 intensity=0.53",
+    "target": "A mix of realization and fear is felt, though realization dominates."
+  },
+  {
+    "input": "emotions: amusement=0.44 excitement=0.08 intensity=0.65",
+    "target": "A deep undercurrent of amusement runs through this."
+  },
+  {
+    "input": "emotions: pride=0.66 amusement=0.46 optimism=0.32 intensity=0.43",
+    "target": "A complex mix of pride, amusement, and a touch of optimism."
+  },
+  {
+    "input": "emotions: nervousness=0.42 realization=0.06 optimism=0.02 intensity=0.76",
+    "target": "The overall mood is nervousness, with a pronounced presence."
+  },
+  {
+    "input": "emotions: remorse=0.51 nervousness=0.24 intensity=0.49",
+    "target": "The heart of the feeling is remorse, softened by a touch of nervousness."
+  },
+  {
+    "input": "emotions: disappointment=0.78 amusement=0.32 intensity=0.62",
+    "target": "A mix of disappointment and amusement is felt, though disappointment dominates."
+  },
+  {
+    "input": "emotions: disapproval=0.89 grief=0.58 intensity=0.64",
+    "target": "There is a blend of disapproval and grief, with disapproval taking the lead."
+  },
+  {
+    "input": "emotions: curiosity=0.89 amusement=0.07 annoyance=0.04 intensity=0.32",
+    "target": "The tone is unmistakably curiosity, at a soft level."
+  },
+  {
+    "input": "emotions: anger=0.73 amusement=0.47 intensity=0.35",
+    "target": "anger is the primary emotion, accompanied by amusement."
+  },
+  {
+    "input": "emotions: neutral=0.76 intensity=0.07",
+    "target": "Very little emotional content is present here."
+  },
+  {
+    "input": "emotions: desire=0.60 nervousness=0.49 optimism=0.36 intensity=0.88",
+    "target": "The feeling is multifaceted: desire leads, with nervousness and optimism following."
+  },
+  {
+    "input": "emotions: anger=0.61 intensity=0.62",
+    "target": "The dominant feeling is anger, experienced with strong intensity."
+  },
+  {
+    "input": "emotions: remorse=0.84 curiosity=0.64 intensity=0.75",
+    "target": "It feels a blend of remorse and curiosity, with remorse slightly stronger than curiosity."
+  },
+  {
+    "input": "emotions: gratitude=0.49 admiration=0.07 excitement=0.06 intensity=0.58",
+    "target": "The dominant feeling is gratitude, experienced with moderate intensity."
+  },
+  {
+    "input": "emotions: realization=0.80 fear=0.55 anger=0.39 intensity=0.89",
+    "target": "It feels a blend of realization and fear, blending realization, fear, and traces of anger."
+  },
+  {
+    "input": "emotions: gratitude=0.56 intensity=0.53",
+    "target": "There is a present sense of gratitude."
+  },
+  {
+    "input": "emotions: caring=0.76 disappointment=0.36 intensity=0.41",
+    "target": "caring dominates the emotional landscape, with disappointment adding nuance."
+  },
+  {
+    "input": "emotions: neutral=0.72 intensity=0.03",
+    "target": "No particular emotion stands out; it feels balanced and calm."
+  },
+  {
+    "input": "emotions: realization=0.75 confusion=0.47 nervousness=0.05 intensity=0.55",
+    "target": "The feeling is multifaceted: realization leads, with confusion and nervousness following."
+  },
+  {
+    "input": "emotions: neutral=0.74 intensity=0.03",
+    "target": "The feeling is flat and neutral, without much emotional charge."
+  },
+  {
+    "input": "emotions: sadness=0.63 disgust=0.10 intensity=0.60",
+    "target": "The tone is unmistakably sadness, at a pronounced level."
+  },
+  {
+    "input": "emotions: curiosity=0.71 grief=0.59 gratitude=0.11 intensity=0.54",
+    "target": "It feels a blend of curiosity and grief, blending curiosity, grief, and traces of gratitude."
+  },
+  {
+    "input": "emotions: neutral=0.92 intensity=0.06",
+    "target": "Very little emotional content is present here."
+  },
+  {
+    "input": "emotions: admiration=0.54 disappointment=0.01 intensity=0.55",
+    "target": "admiration is the primary emotion, and it feels present."
+  },
+  {
+    "input": "emotions: embarrassment=0.72 disappointment=0.44 intensity=0.67",
+    "target": "The heart of the feeling is embarrassment, softened by a touch of disappointment."
+  },
+  {
+    "input": "emotions: optimism=0.75 disgust=0.59 realization=0.51 intensity=0.74",
+    "target": "The feeling is multifaceted: optimism leads, with disgust and realization following."
+  },
+  {
+    "input": "emotions: relief=0.48 disgust=0.09 optimism=0.07 intensity=0.27",
+    "target": "The tone is unmistakably relief, at a quiet level."
+  },
+  {
+    "input": "emotions: anger=0.58 joy=0.21 confusion=0.11 intensity=0.52",
+    "target": "The emotions are layered: primarily anger, with joy and hints of confusion."
+  },
+  {
+    "input": "emotions: confusion=0.44 annoyance=0.41 intensity=0.67",
+    "target": "A tension between annoyance and confusion defines the emotional tone."
+  },
+  {
+    "input": "emotions: approval=0.85 disgust=0.52 confusion=0.10 intensity=0.61",
+    "target": "The dominant emotion is approval, but disgust and confusion add depth."
+  },
+  {
+    "input": "emotions: fear=0.84 gratitude=0.54 pride=0.09 intensity=0.82",
+    "target": "Multiple emotions are at play: fear, gratitude, and pride, creating a complex emotional landscape."
+  },
+  {
+    "input": "emotions: sadness=0.45 excitement=0.09 disappointment=0.01 intensity=0.59",
+    "target": "A clear wave of sadness is present."
+  },
+  {
+    "input": "emotions: nervousness=0.69 surprise=0.21 amusement=0.09 intensity=0.57",
+    "target": "Multiple emotions are at play: nervousness, surprise, and amusement, creating a complex emotional landscape."
+  },
+  {
+    "input": "emotions: curiosity=0.73 remorse=0.66 approval=0.54 intensity=0.83",
+    "target": "Multiple emotions are at play: curiosity, remorse, and approval, creating a complex emotional landscape."
+  },
+  {
+    "input": "emotions: pride=0.59 sadness=0.05 intensity=0.76",
+    "target": "The emotion here is clearly pride, felt significantly."
+  },
+  {
+    "input": "emotions: fear=0.63 disappointment=0.46 annoyance=0.29 intensity=0.42",
+    "target": "One senses fear most strongly, accompanied by disappointment and a hint of annoyance."
+  },
+  {
+    "input": "emotions: confusion=0.77 annoyance=0.33 amusement=0.21 intensity=0.74",
+    "target": "The dominant emotion is confusion, but annoyance and amusement add depth."
+  },
+  {
+    "input": "emotions: approval=0.46 realization=0.34 intensity=0.32",
+    "target": "The feeling leans toward approval, but realization is also clearly present."
+  },
+  {
+    "input": "emotions: surprise=0.46 love=0.24 intensity=0.74",
+    "target": "It is a blend of surprise and love, mostly surprise with some love underneath."
+  },
+  {
+    "input": "emotions: sadness=0.88 admiration=0.31 intensity=0.71",
+    "target": "There is a blend of sadness and admiration, with sadness taking the lead."
+  },
+  {
+    "input": "emotions: excitement=0.61 intensity=0.73",
+    "target": "The emotion here is clearly excitement, felt deeply."
+  },
+  {
+    "input": "emotions: optimism=0.62 relief=0.59 intensity=0.41",
+    "target": "It is hard to tell if optimism or relief is stronger; both are present."
+  },
+  {
+    "input": "emotions: sadness=0.79 disgust=0.58 fear=0.43 intensity=0.61",
+    "target": "It feels a blend of sadness and disgust, blending sadness, disgust, and traces of fear."
+  },
+  {
+    "input": "emotions: fear=0.87 desire=0.22 intensity=0.43",
+    "target": "It is a blend of fear and desire, mostly fear with some desire underneath."
+  },
+  {
+    "input": "emotions: embarrassment=0.66 anger=0.64 intensity=0.41",
+    "target": "The feeling is split between anger and embarrassment."
+  },
+  {
+    "input": "emotions: neutral=0.88 intensity=0.11",
+    "target": "Very little emotional content is present here."
+  },
+  {
+    "input": "emotions: caring=0.51 gratitude=0.07 fear=0.01 intensity=0.79",
+    "target": "The dominant feeling is caring, experienced with deep intensity."
+  },
+  {
+    "input": "emotions: disapproval=0.65 anger=0.08 intensity=0.22",
+    "target": "This carries a quiet feeling of disapproval."
+  },
+  {
+    "input": "emotions: surprise=0.82 disgust=0.03 intensity=0.26",
+    "target": "The tone is unmistakably surprise, at a quiet level."
+  },
+  {
+    "input": "emotions: disapproval=0.75 gratitude=0.35 caring=0.05 intensity=0.44",
+    "target": "The feeling is multifaceted: disapproval leads, with gratitude and caring following."
+  },
+  {
+    "input": "emotions: relief=0.53 approval=0.33 disapproval=0.24 intensity=0.51",
+    "target": "The dominant emotion is relief, but approval and disapproval add depth."
+  },
+  {
+    "input": "emotions: surprise=0.56 intensity=0.54",
+    "target": "One can feel surprise quite moderately here."
+  },
+  {
+    "input": "emotions: confusion=0.77 curiosity=0.43 caring=0.05 intensity=0.84",
+    "target": "There is confusion at the core, surrounded by curiosity and a whisper of caring."
+  },
+  {
+    "input": "emotions: joy=0.63 surprise=0.07 intensity=0.53",
+    "target": "The emotion here is clearly joy, felt noticeablely."
+  },
+  {
+    "input": "emotions: disapproval=0.82 excitement=0.40 intensity=0.57",
+    "target": "One feels disapproval most strongly, but excitement lingers in the background."
+  },
+  {
+    "input": "emotions: optimism=0.52 intensity=0.49",
+    "target": "The emotion here is clearly optimism, felt clearly."
+  },
+  {
+    "input": "emotions: surprise=0.56 love=0.31 amusement=0.29 intensity=0.62",
+    "target": "A complex mix of surprise, love, and a touch of amusement."
+  },
+  {
+    "input": "emotions: caring=0.66 fear=0.50 intensity=0.48",
+    "target": "caring is the primary emotion, accompanied by fear."
+  },
+  {
+    "input": "emotions: optimism=0.47 love=0.05 intensity=0.59",
+    "target": "One can feel optimism quite noticeablely here."
+  },
+  {
+    "input": "emotions: caring=0.92 intensity=0.25",
+    "target": "One can feel caring quite gentlely here."
+  },
+  {
+    "input": "emotions: pride=0.84 optimism=0.10 intensity=0.50",
+    "target": "One can feel pride quite moderately here."
+  },
+  {
+    "input": "emotions: desire=0.51 sadness=0.27 intensity=0.85",
+    "target": "It feels a blend of desire and sadness, with desire slightly stronger than sadness."
+  },
+  {
+    "input": "emotions: joy=0.43 intensity=0.22",
+    "target": "The overall mood is joy, with a moderate presence."
+  },
+  {
+    "input": "emotions: embarrassment=0.44 intensity=0.76",
+    "target": "One can feel embarrassment quite strongly here."
+  },
+  {
+    "input": "emotions: caring=0.84 amusement=0.39 confusion=0.10 intensity=0.89",
+    "target": "The dominant emotion is caring, but amusement and confusion add depth."
+  },
+  {
+    "input": "emotions: love=0.83 annoyance=0.27 intensity=0.43",
+    "target": "The heart of the feeling is love, softened by a touch of annoyance."
+  },
+  {
+    "input": "emotions: confusion=0.64 amusement=0.64 intensity=0.58",
+    "target": "The feeling is split between confusion and amusement."
+  },
+  {
+    "input": "emotions: neutral=0.75 intensity=0.14",
+    "target": "The tone is composed and emotionally neutral."
+  },
+  {
+    "input": "emotions: annoyance=0.47 optimism=0.24 intensity=0.53",
+    "target": "The feeling leans toward annoyance, but optimism is also clearly present."
+  },
+  {
+    "input": "emotions: remorse=0.61 desire=0.27 relief=0.18 intensity=0.76",
+    "target": "The feeling is multifaceted: remorse leads, with desire and relief following."
+  },
+  {
+    "input": "emotions: anger=0.58 gratitude=0.07 disgust=0.05 intensity=0.65",
+    "target": "The dominant feeling is anger, experienced with deep intensity."
+  },
+  {
+    "input": "emotions: anger=0.52 disapproval=0.03 intensity=0.55",
+    "target": "There is a noticeable sense of anger."
+  },
+  {
+    "input": "emotions: nervousness=0.89 grief=0.06 confusion=0.02 intensity=0.47",
+    "target": "The overall mood is nervousness, with a moderate presence."
+  },
+  {
+    "input": "emotions: sadness=0.52 remorse=0.51 intensity=0.35",
+    "target": "Neither sadness nor remorse dominates; they are equally felt."
+  },
+  {
+    "input": "emotions: excitement=0.78 disapproval=0.23 intensity=0.85",
+    "target": "The feeling leans toward excitement, but disapproval is also clearly present."
+  },
+  {
+    "input": "emotions: neutral=0.92 intensity=0.07",
+    "target": "The feeling is flat and neutral, without much emotional charge."
+  },
+  {
+    "input": "emotions: neutral=0.85 intensity=0.04",
+    "target": "The feeling is flat and neutral, without much emotional charge."
+  },
+  {
+    "input": "emotions: desire=0.50 disapproval=0.50 intensity=0.65",
+    "target": "desire and disapproval coexist in a balanced way."
+  },
+  {
+    "input": "emotions: desire=0.86 gratitude=0.06 relief=0.01 intensity=0.51",
+    "target": "There is a noticeable sense of desire."
+  },
+  {
+    "input": "emotions: surprise=0.73 realization=0.65 disapproval=0.30 intensity=0.56",
+    "target": "Multiple emotions are at play: surprise, realization, and disapproval, creating a complex emotional landscape."
+  },
+  {
+    "input": "emotions: sadness=0.44 nervousness=0.42 intensity=0.42",
+    "target": "A tension between nervousness and sadness defines the emotional tone."
+  },
+  {
+    "input": "emotions: relief=0.65 joy=0.59 fear=0.08 intensity=0.84",
+    "target": "The dominant emotion is relief, but joy and fear add depth."
+  },
+  {
+    "input": "emotions: annoyance=0.55 confusion=0.33 love=0.05 intensity=0.56",
+    "target": "The feeling is multifaceted: annoyance leads, with confusion and love following."
+  },
+  {
+    "input": "emotions: neutral=0.79 intensity=0.14",
+    "target": "There is no strong emotion detected; the mood is calm and even."
+  },
+  {
+    "input": "emotions: curiosity=0.78 disapproval=0.06 love=0.03 intensity=0.23",
+    "target": "The dominant feeling is curiosity, experienced with gentle intensity."
+  },
+  {
+    "input": "emotions: fear=0.82 curiosity=0.56 desire=0.28 intensity=0.82",
+    "target": "One senses fear most strongly, accompanied by curiosity and a hint of desire."
+  },
+  {
+    "input": "emotions: annoyance=0.42 optimism=0.09 disgust=0.06 intensity=0.45",
+    "target": "One can feel annoyance quite noticeablely here."
+  },
+  {
+    "input": "emotions: anger=0.57 disgust=0.47 disapproval=0.15 intensity=0.75",
+    "target": "A complex mix of anger, disgust, and a touch of disapproval."
+  },
+  {
+    "input": "emotions: surprise=0.54 pride=0.06 love=0.03 intensity=0.25",
+    "target": "The emotion here is clearly surprise, felt moderately."
+  },
+  {
+    "input": "emotions: sadness=0.47 optimism=0.26 relief=0.13 intensity=0.87",
+    "target": "A complex mix of sadness, optimism, and a touch of relief."
+  },
+  {
+    "input": "emotions: disappointment=0.76 intensity=0.34",
+    "target": "The tone is unmistakably disappointment, at a moderate level."
+  },
+  {
+    "input": "emotions: curiosity=0.83 sadness=0.33 remorse=0.08 intensity=0.55",
+    "target": "One senses curiosity most strongly, accompanied by sadness and a hint of remorse."
+  },
+  {
+    "input": "emotions: nervousness=0.68 joy=0.45 caring=0.34 intensity=0.47",
+    "target": "A complex mix of nervousness, joy, and a touch of caring."
+  },
+  {
+    "input": "emotions: disgust=0.49 confusion=0.49 intensity=0.37",
+    "target": "Neither disgust nor confusion dominates; they are equally felt."
+  },
+  {
+    "input": "emotions: pride=0.58 realization=0.34 intensity=0.77",
+    "target": "The mood is mainly pride, with undertones of realization."
+  },
+  {
+    "input": "emotions: caring=0.53 confusion=0.41 amusement=0.33 intensity=0.84",
+    "target": "The feeling is multifaceted: caring leads, with confusion and amusement following."
+  },
+  {
+    "input": "emotions: love=0.50 joy=0.06 confusion=0.01 intensity=0.68",
+    "target": "love is the primary emotion, and it feels deep."
+  },
+  {
+    "input": "emotions: optimism=0.84 nervousness=0.59 intensity=0.78",
+    "target": "There is a blend of optimism and nervousness, with optimism taking the lead."
+  },
+  {
+    "input": "emotions: surprise=0.80 sadness=0.73 intensity=0.41",
+    "target": "It is a blend of surprise and sadness, mostly surprise with some sadness underneath."
+  },
+  {
+    "input": "emotions: grief=0.65 joy=0.07 intensity=0.25",
+    "target": "The tone is unmistakably grief, at a gentle level."
+  },
+  {
+    "input": "emotions: admiration=0.61 disapproval=0.28 intensity=0.82",
+    "target": "There is a blend of admiration and disapproval, with admiration taking the lead."
+  },
+  {
+    "input": "emotions: love=0.67 optimism=0.58 intensity=0.43",
+    "target": "There is a blend of love and optimism, with love taking the lead."
+  },
+  {
+    "input": "emotions: pride=0.46 amusement=0.21 intensity=0.75",
+    "target": "It feels a blend of pride and amusement, with pride slightly stronger than amusement."
+  },
+  {
+    "input": "emotions: desire=0.59 disappointment=0.54 intensity=0.59",
+    "target": "The mood is a delicate balance of desire and disappointment."
+  },
+  {
+    "input": "emotions: neutral=0.86 intensity=0.10",
+    "target": "The feeling is flat and neutral, without much emotional charge."
+  },
+  {
+    "input": "emotions: realization=0.81 disapproval=0.24 sadness=0.20 intensity=0.81",
+    "target": "The feeling is multifaceted: realization leads, with disapproval and sadness following."
+  },
+  {
+    "input": "emotions: fear=0.82 confusion=0.41 intensity=0.38",
+    "target": "It feels a blend of fear and confusion, with fear slightly stronger than confusion."
+  },
+  {
+    "input": "emotions: excitement=0.66 joy=0.38 disgust=0.26 intensity=0.48",
+    "target": "There is excitement at the core, surrounded by joy and a whisper of disgust."
+  },
+  {
+    "input": "emotions: nervousness=0.79 caring=0.59 disgust=0.35 intensity=0.47",
+    "target": "One senses nervousness most strongly, accompanied by caring and a hint of disgust."
+  },
+  {
+    "input": "emotions: joy=0.85 excitement=0.74 intensity=0.45",
+    "target": "A mix of joy and excitement is felt, though joy dominates."
+  },
+  {
+    "input": "emotions: fear=0.56 curiosity=0.26 intensity=0.69",
+    "target": "A mix of fear and curiosity is felt, though fear dominates."
+  },
+  {
+    "input": "emotions: disappointment=0.87 surprise=0.69 intensity=0.83",
+    "target": "There is a blend of disappointment and surprise, with disappointment taking the lead."
+  },
+  {
+    "input": "emotions: sadness=0.69 disapproval=0.33 intensity=0.41",
+    "target": "It feels a blend of sadness and disapproval, with sadness slightly stronger than disapproval."
+  },
+  {
+    "input": "emotions: nervousness=0.50 disgust=0.27 relief=0.12 intensity=0.84",
+    "target": "One senses nervousness most strongly, accompanied by disgust and a hint of relief."
+  },
+  {
+    "input": "emotions: disappointment=0.67 admiration=0.34 curiosity=0.18 intensity=0.63",
+    "target": "A complex mix of disappointment, admiration, and a touch of curiosity."
+  },
+  {
+    "input": "emotions: caring=0.82 intensity=0.84",
+    "target": "The emotion here is clearly caring, felt very strongly."
+  },
+  {
+    "input": "emotions: disapproval=0.44 approval=0.43 intensity=0.62",
+    "target": "The feeling is split between disapproval and approval."
+  },
+  {
+    "input": "emotions: joy=0.76 disgust=0.07 fear=0.02 intensity=0.28",
+    "target": "A quiet wave of joy is present."
+  },
+  {
+    "input": "emotions: curiosity=0.82 disappointment=0.05 intensity=0.45",
+    "target": "A present wave of curiosity is present."
+  },
+  {
+    "input": "emotions: curiosity=0.51 pride=0.21 disapproval=0.18 intensity=0.70",
+    "target": "Multiple emotions are at play: curiosity, pride, and disapproval, creating a complex emotional landscape."
+  },
+  {
+    "input": "emotions: admiration=0.57 annoyance=0.21 intensity=0.51",
+    "target": "It feels a blend of admiration and annoyance, with admiration slightly stronger than annoyance."
+  },
+  {
+    "input": "emotions: confusion=0.69 nervousness=0.37 anger=0.24 intensity=0.49",
+    "target": "The emotions are layered: primarily confusion, with nervousness and hints of anger."
+  },
+  {
+    "input": "emotions: love=0.58 anger=0.31 desire=0.18 intensity=0.51",
+    "target": "Multiple emotions are at play: love, anger, and desire, creating a complex emotional landscape."
+  },
+  {
+    "input": "emotions: love=0.65 disappointment=0.06 intensity=0.78",
+    "target": "The dominant feeling is love, experienced with deep intensity."
+  },
+  {
+    "input": "emotions: neutral=0.92 intensity=0.13",
+    "target": "The tone is composed and emotionally neutral."
+  },
+  {
+    "input": "emotions: relief=0.89 remorse=0.06 grief=0.06 intensity=0.38",
+    "target": "The dominant feeling is relief, experienced with gentle intensity."
+  },
+  {
+    "input": "emotions: neutral=0.89 intensity=0.15",
+    "target": "The feeling is flat and neutral, without much emotional charge."
+  },
+  {
+    "input": "emotions: realization=0.62 sadness=0.41 curiosity=0.20 intensity=0.52",
+    "target": "It feels a blend of realization and sadness, blending realization, sadness, and traces of curiosity."
+  },
+  {
+    "input": "emotions: caring=0.46 pride=0.25 embarrassment=0.12 intensity=0.84",
+    "target": "There is caring at the core, surrounded by pride and a whisper of embarrassment."
+  },
+  {
+    "input": "emotions: admiration=0.78 disapproval=0.54 approval=0.18 intensity=0.45",
+    "target": "The dominant emotion is admiration, but disapproval and approval add depth."
+  },
+  {
+    "input": "emotions: nervousness=0.84 approval=0.50 annoyance=0.31 intensity=0.87",
+    "target": "A complex mix of nervousness, approval, and a touch of annoyance."
+  },
+  {
+    "input": "emotions: amusement=0.42 intensity=0.24",
+    "target": "There is a moderate sense of amusement."
+  },
+  {
+    "input": "emotions: neutral=0.80 intensity=0.13",
+    "target": "No particular emotion stands out; it feels balanced and calm."
+  },
+  {
+    "input": "emotions: disapproval=0.62 joy=0.55 intensity=0.70",
+    "target": "It feels a blend of disapproval and joy, with disapproval slightly stronger than joy."
+  },
+  {
+    "input": "emotions: embarrassment=0.89 disgust=0.56 intensity=0.34",
+    "target": "There is a blend of embarrassment and disgust, with embarrassment taking the lead."
+  },
+  {
+    "input": "emotions: annoyance=0.67 pride=0.23 optimism=0.05 intensity=0.40",
+    "target": "There is annoyance at the core, surrounded by pride and a whisper of optimism."
+  },
+  {
+    "input": "emotions: embarrassment=0.85 optimism=0.10 sadness=0.09 intensity=0.28",
+    "target": "The overall mood is embarrassment, with a soft presence."
+  },
+  {
+    "input": "emotions: disapproval=0.60 desire=0.58 intensity=0.51",
+    "target": "There is an equal mix of desire and disapproval."
+  },
+  {
+    "input": "emotions: confusion=0.63 love=0.34 intensity=0.42",
+    "target": "The mood is mainly confusion, with undertones of love."
+  },
+  {
+    "input": "emotions: disappointment=0.56 approval=0.29 intensity=0.80",
+    "target": "One feels disappointment most strongly, but approval lingers in the background."
+  },
+  {
+    "input": "emotions: pride=0.71 joy=0.28 desire=0.10 intensity=0.72",
+    "target": "There is pride at the core, surrounded by joy and a whisper of desire."
+  },
+  {
+    "input": "emotions: neutral=0.95 intensity=0.09",
+    "target": "There is no strong emotion detected; the mood is calm and even."
+  },
+  {
+    "input": "emotions: anger=0.47 approval=0.30 optimism=0.05 intensity=0.62",
+    "target": "The emotions are layered: primarily anger, with approval and hints of optimism."
+  },
+  {
+    "input": "emotions: neutral=0.93 intensity=0.04",
+    "target": "The feeling is flat and neutral, without much emotional charge."
+  },
+  {
+    "input": "emotions: neutral=0.84 intensity=0.04",
+    "target": "Very little emotional content is present here."
+  },
+  {
+    "input": "emotions: sadness=0.62 realization=0.43 intensity=0.50",
+    "target": "The feeling leans toward sadness, but realization is also clearly present."
+  },
+  {
+    "input": "emotions: desire=0.87 remorse=0.60 intensity=0.35",
+    "target": "There is a blend of desire and remorse, with desire taking the lead."
+  },
+  {
+    "input": "emotions: neutral=0.72 intensity=0.03",
+    "target": "There is no strong emotion detected; the mood is calm and even."
+  },
+  {
+    "input": "emotions: confusion=0.66 sadness=0.36 intensity=0.79",
+    "target": "It feels a blend of confusion and sadness, with confusion slightly stronger than sadness."
+  },
+  {
+    "input": "emotions: anger=0.84 disapproval=0.44 admiration=0.07 intensity=0.62",
+    "target": "The dominant emotion is anger, but disapproval and admiration add depth."
+  },
+  {
+    "input": "emotions: disgust=0.62 caring=0.50 curiosity=0.14 intensity=0.72",
+    "target": "A complex mix of disgust, caring, and a touch of curiosity."
+  },
+  {
+    "input": "emotions: sadness=0.58 confusion=0.46 intensity=0.72",
+    "target": "One feels sadness most strongly, but confusion lingers in the background."
+  },
+  {
+    "input": "emotions: surprise=0.63 intensity=0.64",
+    "target": "One can feel surprise quite deeply here."
+  },
+  {
+    "input": "emotions: grief=0.55 surprise=0.37 caring=0.18 intensity=0.40",
+    "target": "There is grief at the core, surrounded by surprise and a whisper of caring."
+  },
+  {
+    "input": "emotions: confusion=0.52 curiosity=0.08 admiration=0.04 intensity=0.73",
+    "target": "The emotion here is clearly confusion, felt strongly."
+  },
+  {
+    "input": "emotions: disapproval=0.78 curiosity=0.41 sadness=0.07 intensity=0.43",
+    "target": "It feels a blend of disapproval and curiosity, blending disapproval, curiosity, and traces of sadness."
+  },
+  {
+    "input": "emotions: disappointment=0.70 disapproval=0.29 fear=0.22 intensity=0.64",
+    "target": "One senses disappointment most strongly, accompanied by disapproval and a hint of fear."
+  },
+  {
+    "input": "emotions: realization=0.74 amusement=0.06 sadness=0.04 intensity=0.39",
+    "target": "A quiet undercurrent of realization runs through this."
+  },
+  {
+    "input": "emotions: neutral=0.90 intensity=0.13",
+    "target": "The feeling is flat and neutral, without much emotional charge."
+  },
+  {
+    "input": "emotions: neutral=0.92 intensity=0.11",
+    "target": "There is no strong emotion detected; the mood is calm and even."
+  },
+  {
+    "input": "emotions: neutral=0.75 intensity=0.03",
+    "target": "The feeling is flat and neutral, without much emotional charge."
+  },
+  {
+    "input": "emotions: relief=0.77 annoyance=0.62 surprise=0.21 intensity=0.81",
+    "target": "The feeling is multifaceted: relief leads, with annoyance and surprise following."
+  },
+  {
+    "input": "emotions: relief=0.58 love=0.21 intensity=0.45",
+    "target": "It is a blend of relief and love, mostly relief with some love underneath."
+  },
+  {
+    "input": "emotions: caring=0.74 intensity=0.84",
+    "target": "One can feel caring quite overwhelmingly here."
+  },
+  {
+    "input": "emotions: disapproval=0.57 confusion=0.36 love=0.10 intensity=0.88",
+    "target": "The feeling is multifaceted: disapproval leads, with confusion and love following."
+  },
+  {
+    "input": "emotions: confusion=0.41 approval=0.40 intensity=0.48",
+    "target": "It is hard to tell if confusion or approval is stronger; both are present."
+  },
+  {
+    "input": "emotions: excitement=0.85 intensity=0.28",
+    "target": "This carries a soft feeling of excitement."
+  },
+  {
+    "input": "emotions: pride=0.66 annoyance=0.63 intensity=0.72",
+    "target": "Neither annoyance nor pride dominates; they are equally felt."
+  },
+  {
+    "input": "emotions: approval=0.57 excitement=0.51 sadness=0.30 intensity=0.77",
+    "target": "Multiple emotions are at play: approval, excitement, and sadness, creating a complex emotional landscape."
+  },
+  {
+    "input": "emotions: approval=0.75 fear=0.27 relief=0.09 intensity=0.83",
+    "target": "The feeling is multifaceted: approval leads, with fear and relief following."
+  },
+  {
+    "input": "emotions: joy=0.74 surprise=0.07 disapproval=0.03 intensity=0.81",
+    "target": "This carries a overwhelming feeling of joy."
+  },
+  {
+    "input": "emotions: love=0.49 intensity=0.48",
+    "target": "The emotion here is clearly love, felt moderately."
+  },
+  {
+    "input": "emotions: realization=0.38 admiration=0.37 intensity=0.60",
+    "target": "Neither realization nor admiration dominates; they are equally felt."
+  },
+  {
+    "input": "emotions: neutral=0.87 intensity=0.11",
+    "target": "Very little emotional content is present here."
+  },
+  {
+    "input": "emotions: surprise=0.67 fear=0.35 desire=0.25 intensity=0.82",
+    "target": "There is surprise at the core, surrounded by fear and a whisper of desire."
+  },
+  {
+    "input": "emotions: annoyance=0.58 love=0.58 intensity=0.64",
+    "target": "A tension between annoyance and love defines the emotional tone."
+  },
+  {
+    "input": "emotions: approval=0.60 sadness=0.46 intensity=0.78",
+    "target": "A mix of approval and sadness is felt, though approval dominates."
+  },
+  {
+    "input": "emotions: curiosity=0.58 joy=0.09 intensity=0.22",
+    "target": "The tone is unmistakably curiosity, at a moderate level."
+  },
+  {
+    "input": "emotions: disappointment=0.50 realization=0.32 intensity=0.36",
+    "target": "The heart of the feeling is disappointment, softened by a touch of realization."
+  },
+  {
+    "input": "emotions: desire=0.91 nervousness=0.05 intensity=0.38",
+    "target": "The emotion here is clearly desire, felt softly."
+  },
+  {
+    "input": "emotions: annoyance=0.46 grief=0.29 joy=0.13 intensity=0.66",
+    "target": "There is annoyance at the core, surrounded by grief and a whisper of joy."
+  },
+  {
+    "input": "emotions: fear=0.77 caring=0.10 nervousness=0.02 intensity=0.21",
+    "target": "The tone is unmistakably fear, at a soft level."
+  },
+  {
+    "input": "emotions: neutral=0.75 intensity=0.08",
+    "target": "The feeling is flat and neutral, without much emotional charge."
+  },
+  {
+    "input": "emotions: excitement=0.48 pride=0.38 intensity=0.43",
+    "target": "The feeling leans toward excitement, but pride is also clearly present."
+  },
+  {
+    "input": "emotions: neutral=0.82 intensity=0.15",
+    "target": "There is no strong emotion detected; the mood is calm and even."
+  },
+  {
+    "input": "emotions: curiosity=0.82 intensity=0.76",
+    "target": "This carries a significant feeling of curiosity."
+  },
+  {
+    "input": "emotions: joy=0.84 approval=0.34 intensity=0.62",
+    "target": "The heart of the feeling is joy, softened by a touch of approval."
+  },
+  {
+    "input": "emotions: remorse=0.84 annoyance=0.39 intensity=0.85",
+    "target": "The heart of the feeling is remorse, softened by a touch of annoyance."
+  },
+  {
+    "input": "emotions: nervousness=0.73 amusement=0.63 pride=0.15 intensity=0.69",
+    "target": "It feels a blend of nervousness and amusement, blending nervousness, amusement, and traces of pride."
+  },
+  {
+    "input": "emotions: optimism=0.66 disapproval=0.49 intensity=0.74",
+    "target": "There is a blend of optimism and disapproval, with optimism taking the lead."
+  },
+  {
+    "input": "emotions: annoyance=0.51 anger=0.49 intensity=0.63",
+    "target": "Both anger and annoyance are present in similar measure."
+  },
+  {
+    "input": "emotions: disapproval=0.65 realization=0.36 disgust=0.24 intensity=0.43",
+    "target": "It feels a blend of disapproval and realization, blending disapproval, realization, and traces of disgust."
+  },
+  {
+    "input": "emotions: love=0.76 amusement=0.08 admiration=0.07 intensity=0.62",
+    "target": "The tone is unmistakably love, at a deep level."
+  },
+  {
+    "input": "emotions: sadness=0.59 desire=0.23 intensity=0.51",
+    "target": "It is a blend of sadness and desire, mostly sadness with some desire underneath."
+  },
+  {
+    "input": "emotions: nervousness=0.60 caring=0.09 anger=0.05 intensity=0.75",
+    "target": "There is a deep sense of nervousness."
+  },
+  {
+    "input": "emotions: neutral=0.87 intensity=0.12",
+    "target": "The feeling is flat and neutral, without much emotional charge."
+  },
+  {
+    "input": "emotions: annoyance=0.54 anger=0.47 caring=0.07 intensity=0.81",
+    "target": "One senses annoyance most strongly, accompanied by anger and a hint of caring."
+  },
+  {
+    "input": "emotions: joy=0.55 realization=0.53 intensity=0.38",
+    "target": "Neither joy nor realization dominates; they are equally felt."
+  },
+  {
+    "input": "emotions: fear=0.46 curiosity=0.39 remorse=0.25 intensity=0.78",
+    "target": "The emotions are layered: primarily fear, with curiosity and hints of remorse."
+  },
+  {
+    "input": "emotions: remorse=0.73 realization=0.41 intensity=0.66",
+    "target": "The feeling leans toward remorse, but realization is also clearly present."
+  },
+  {
+    "input": "emotions: neutral=0.88 intensity=0.14",
+    "target": "Very little emotional content is present here."
+  },
+  {
+    "input": "emotions: annoyance=0.64 embarrassment=0.21 intensity=0.36",
+    "target": "The heart of the feeling is annoyance, softened by a touch of embarrassment."
+  },
+  {
+    "input": "emotions: disapproval=0.81 grief=0.05 fear=0.04 intensity=0.43",
+    "target": "The overall mood is disapproval, with a noticeable presence."
+  },
+  {
+    "input": "emotions: amusement=0.40 embarrassment=0.40 intensity=0.30",
+    "target": "Both amusement and embarrassment are present in similar measure."
+  },
+  {
+    "input": "emotions: gratitude=0.64 love=0.28 excitement=0.14 intensity=0.60",
+    "target": "There is gratitude at the core, surrounded by love and a whisper of excitement."
+  },
+  {
+    "input": "emotions: neutral=0.77 intensity=0.08",
+    "target": "No particular emotion stands out; it feels balanced and calm."
+  },
+  {
+    "input": "emotions: embarrassment=0.44 realization=0.40 intensity=0.77",
+    "target": "Both realization and embarrassment are present in similar measure."
+  },
+  {
+    "input": "emotions: joy=0.58 admiration=0.54 intensity=0.63",
+    "target": "Neither joy nor admiration dominates; they are equally felt."
+  },
+  {
+    "input": "emotions: neutral=0.89 intensity=0.15",
+    "target": "The emotional tone is relatively neutral."
+  },
+  {
+    "input": "emotions: fear=0.62 embarrassment=0.34 intensity=0.83",
+    "target": "fear dominates the emotional landscape, with embarrassment adding nuance."
+  },
+  {
+    "input": "emotions: remorse=0.82 surprise=0.48 intensity=0.41",
+    "target": "The heart of the feeling is remorse, softened by a touch of surprise."
+  },
+  {
+    "input": "emotions: surprise=0.59 caring=0.33 intensity=0.80",
+    "target": "surprise dominates the emotional landscape, with caring adding nuance."
+  },
+  {
+    "input": "emotions: surprise=0.90 gratitude=0.02 intensity=0.23",
+    "target": "surprise is the primary emotion, and it feels quiet."
+  },
+  {
+    "input": "emotions: admiration=0.49 joy=0.33 excitement=0.09 intensity=0.55",
+    "target": "The dominant emotion is admiration, but joy and excitement add depth."
+  },
+  {
+    "input": "emotions: amusement=0.68 caring=0.36 sadness=0.08 intensity=0.81",
+    "target": "There is amusement at the core, surrounded by caring and a whisper of sadness."
+  },
+  {
+    "input": "emotions: amusement=0.73 confusion=0.60 intensity=0.61",
+    "target": "The feeling leans toward amusement, but confusion is also clearly present."
+  },
+  {
+    "input": "emotions: love=0.53 fear=0.24 intensity=0.81",
+    "target": "The mood is mainly love, with undertones of fear."
+  },
+  {
+    "input": "emotions: annoyance=0.81 joy=0.27 intensity=0.66",
+    "target": "It feels a blend of annoyance and joy, with annoyance slightly stronger than joy."
+  },
+  {
+    "input": "emotions: disapproval=0.53 intensity=0.46",
+    "target": "The overall mood is disapproval, with a present presence."
+  },
+  {
+    "input": "emotions: disgust=0.70 annoyance=0.38 confusion=0.23 intensity=0.41",
+    "target": "The emotions are layered: primarily disgust, with annoyance and hints of confusion."
+  },
+  {
+    "input": "emotions: annoyance=0.64 disgust=0.26 intensity=0.57",
+    "target": "The mood is mainly annoyance, with undertones of disgust."
+  },
+  {
+    "input": "emotions: joy=0.57 desire=0.31 nervousness=0.21 intensity=0.85",
+    "target": "It feels a blend of joy and desire, blending joy, desire, and traces of nervousness."
+  },
+  {
+    "input": "emotions: anger=0.87 disgust=0.06 intensity=0.41",
+    "target": "The dominant feeling is anger, experienced with noticeable intensity."
+  },
+  {
+    "input": "emotions: neutral=0.92 intensity=0.13",
+    "target": "The feeling is flat and neutral, without much emotional charge."
+  },
+  {
+    "input": "emotions: remorse=0.52 admiration=0.45 gratitude=0.23 intensity=0.86",
+    "target": "Multiple emotions are at play: remorse, admiration, and gratitude, creating a complex emotional landscape."
+  },
+  {
+    "input": "emotions: desire=0.92 intensity=0.33",
+    "target": "There is a quiet sense of desire."
+  },
+  {
+    "input": "emotions: joy=0.76 approval=0.52 curiosity=0.36 intensity=0.63",
+    "target": "It feels a blend of joy and approval, blending joy, approval, and traces of curiosity."
+  },
+  {
+    "input": "emotions: approval=0.73 surprise=0.33 intensity=0.80",
+    "target": "approval is the primary emotion, accompanied by surprise."
+  },
+  {
+    "input": "emotions: amusement=0.62 desire=0.53 intensity=0.53",
+    "target": "One feels amusement most strongly, but desire lingers in the background."
+  },
+  {
+    "input": "emotions: neutral=0.82 intensity=0.08",
+    "target": "The feeling is flat and neutral, without much emotional charge."
+  },
+  {
+    "input": "emotions: remorse=0.62 embarrassment=0.30 intensity=0.71",
+    "target": "It is a blend of remorse and embarrassment, mostly remorse with some embarrassment underneath."
+  },
+  {
+    "input": "emotions: anger=0.55 confusion=0.39 excitement=0.22 intensity=0.42",
+    "target": "There is anger at the core, surrounded by confusion and a whisper of excitement."
+  },
+  {
+    "input": "emotions: approval=0.91 intensity=0.77",
+    "target": "A pronounced wave of approval is present."
+  },
+  {
+    "input": "emotions: excitement=0.54 remorse=0.30 grief=0.18 intensity=0.80",
+    "target": "It feels a blend of excitement and remorse, blending excitement, remorse, and traces of grief."
+  },
+  {
+    "input": "emotions: surprise=0.73 intensity=0.62",
+    "target": "There is a pronounced sense of surprise."
+  },
+  {
+    "input": "emotions: neutral=0.73 intensity=0.13",
+    "target": "There is no strong emotion detected; the mood is calm and even."
+  },
+  {
+    "input": "emotions: surprise=0.48 pride=0.20 nervousness=0.10 intensity=0.86",
+    "target": "One senses surprise most strongly, accompanied by pride and a hint of nervousness."
+  },
+  {
+    "input": "emotions: optimism=0.80 anger=0.07 intensity=0.79",
+    "target": "The dominant feeling is optimism, experienced with pronounced intensity."
+  },
+  {
+    "input": "emotions: anger=0.52 embarrassment=0.39 intensity=0.69",
+    "target": "The heart of the feeling is anger, softened by a touch of embarrassment."
+  },
+  {
+    "input": "emotions: optimism=0.50 excitement=0.25 intensity=0.47",
+    "target": "One feels optimism most strongly, but excitement lingers in the background."
+  },
+  {
+    "input": "emotions: anger=0.53 realization=0.06 relief=0.03 intensity=0.31",
+    "target": "A gentle wave of anger is present."
+  },
+  {
+    "input": "emotions: annoyance=0.52 relief=0.51 intensity=0.48",
+    "target": "The feeling is split between relief and annoyance."
+  },
+  {
+    "input": "emotions: pride=0.65 grief=0.09 intensity=0.35",
+    "target": "The tone is unmistakably pride, at a gentle level."
+  },
+  {
+    "input": "emotions: sadness=0.48 approval=0.42 surprise=0.10 intensity=0.55",
+    "target": "The dominant emotion is sadness, but approval and surprise add depth."
+  },
+  {
+    "input": "emotions: remorse=0.81 anger=0.57 gratitude=0.10 intensity=0.90",
+    "target": "Multiple emotions are at play: remorse, anger, and gratitude, creating a complex emotional landscape."
+  },
+  {
+    "input": "emotions: embarrassment=0.86 surprise=0.10 nervousness=0.05 intensity=0.71",
+    "target": "embarrassment is the primary emotion, and it feels significant."
+  },
+  {
+    "input": "emotions: confusion=0.71 remorse=0.43 admiration=0.31 intensity=0.86",
+    "target": "One senses confusion most strongly, accompanied by remorse and a hint of admiration."
+  },
+  {
+    "input": "emotions: pride=0.48 disappointment=0.47 intensity=0.51",
+    "target": "Neither pride nor disappointment dominates; they are equally felt."
+  },
+  {
+    "input": "emotions: neutral=0.72 intensity=0.10",
+    "target": "There is no strong emotion detected; the mood is calm and even."
+  },
+  {
+    "input": "emotions: confusion=0.54 nervousness=0.51 intensity=0.53",
+    "target": "Both confusion and nervousness are present in similar measure."
+  },
+  {
+    "input": "emotions: desire=0.80 curiosity=0.04 intensity=0.43",
+    "target": "A noticeable undercurrent of desire runs through this."
+  },
+  {
+    "input": "emotions: realization=0.84 annoyance=0.40 intensity=0.52",
+    "target": "One feels realization most strongly, but annoyance lingers in the background."
+  },
+  {
+    "input": "emotions: joy=0.70 surprise=0.06 optimism=0.02 intensity=0.38",
+    "target": "This carries a gentle feeling of joy."
+  },
+  {
+    "input": "emotions: love=0.65 fear=0.64 intensity=0.56",
+    "target": "It is hard to tell if fear or love is stronger; both are present."
+  },
+  {
+    "input": "emotions: approval=0.82 caring=0.64 pride=0.22 intensity=0.75",
+    "target": "Multiple emotions are at play: approval, caring, and pride, creating a complex emotional landscape."
+  },
+  {
+    "input": "emotions: annoyance=0.49 love=0.43 intensity=0.76",
+    "target": "The heart of the feeling is annoyance, softened by a touch of love."
+  },
+  {
+    "input": "emotions: curiosity=0.46 fear=0.08 nervousness=0.06 intensity=0.87",
+    "target": "There is a overwhelming sense of curiosity."
+  },
+  {
+    "input": "emotions: desire=0.82 gratitude=0.56 optimism=0.14 intensity=0.82",
+    "target": "Multiple emotions are at play: desire, gratitude, and optimism, creating a complex emotional landscape."
+  },
+  {
+    "input": "emotions: sadness=0.79 approval=0.08 intensity=0.56",
+    "target": "There is a clear sense of sadness."
+  },
+  {
+    "input": "emotions: excitement=0.49 anger=0.31 intensity=0.33",
+    "target": "excitement dominates the emotional landscape, with anger adding nuance."
+  },
+  {
+    "input": "emotions: sadness=0.66 excitement=0.37 disappointment=0.26 intensity=0.72",
+    "target": "The emotions are layered: primarily sadness, with excitement and hints of disappointment."
+  },
+  {
+    "input": "emotions: confusion=0.65 gratitude=0.30 realization=0.06 intensity=0.73",
+    "target": "A complex mix of confusion, gratitude, and a touch of realization."
+  },
+  {
+    "input": "emotions: disappointment=0.82 admiration=0.46 intensity=0.42",
+    "target": "The mood is mainly disappointment, with undertones of admiration."
+  },
+  {
+    "input": "emotions: sadness=0.47 gratitude=0.30 intensity=0.31",
+    "target": "A mix of sadness and gratitude is felt, though sadness dominates."
+  },
+  {
+    "input": "emotions: love=0.46 optimism=0.43 intensity=0.74",
+    "target": "A tension between optimism and love defines the emotional tone."
+  },
+  {
+    "input": "emotions: annoyance=0.59 embarrassment=0.23 intensity=0.39",
+    "target": "There is a blend of annoyance and embarrassment, with annoyance taking the lead."
+  },
+  {
+    "input": "emotions: disapproval=0.55 confusion=0.01 intensity=0.87",
+    "target": "The dominant feeling is disapproval, experienced with intense intensity."
+  },
+  {
+    "input": "emotions: admiration=0.74 desire=0.38 approval=0.24 intensity=0.69",
+    "target": "Multiple emotions are at play: admiration, desire, and approval, creating a complex emotional landscape."
+  },
+  {
+    "input": "emotions: love=0.67 grief=0.39 intensity=0.75",
+    "target": "The feeling leans toward love, but grief is also clearly present."
+  },
+  {
+    "input": "emotions: surprise=0.81 sadness=0.57 realization=0.25 intensity=0.87",
+    "target": "The feeling is multifaceted: surprise leads, with sadness and realization following."
+  },
+  {
+    "input": "emotions: disgust=0.57 curiosity=0.09 anger=0.07 intensity=0.55",
+    "target": "The tone is unmistakably disgust, at a noticeable level."
+  },
+  {
+    "input": "emotions: relief=0.78 surprise=0.69 caring=0.13 intensity=0.77",
+    "target": "The emotions are layered: primarily relief, with surprise and hints of caring."
+  },
+  {
+    "input": "emotions: grief=0.65 desire=0.38 fear=0.34 intensity=0.41",
+    "target": "It feels a blend of grief and desire, blending grief, desire, and traces of fear."
+  },
+  {
+    "input": "emotions: annoyance=0.51 grief=0.08 surprise=0.01 intensity=0.61",
+    "target": "One can feel annoyance quite pronouncedly here."
+  },
+  {
+    "input": "emotions: anger=0.69 excitement=0.22 nervousness=0.14 intensity=0.61",
+    "target": "It feels a blend of anger and excitement, blending anger, excitement, and traces of nervousness."
+  },
+  {
+    "input": "emotions: joy=0.83 annoyance=0.07 intensity=0.31",
+    "target": "This carries a quiet feeling of joy."
+  },
+  {
+    "input": "emotions: curiosity=0.80 intensity=0.69",
+    "target": "A significant wave of curiosity is present."
+  },
+  {
+    "input": "emotions: disgust=0.75 pride=0.25 gratitude=0.17 intensity=0.55",
+    "target": "It feels a blend of disgust and pride, blending disgust, pride, and traces of gratitude."
+  },
+  {
+    "input": "emotions: love=0.77 desire=0.49 realization=0.15 intensity=0.47",
+    "target": "The dominant emotion is love, but desire and realization add depth."
+  },
+  {
+    "input": "emotions: neutral=0.74 intensity=0.10",
+    "target": "No particular emotion stands out; it feels balanced and calm."
+  },
+  {
+    "input": "emotions: relief=0.47 love=0.38 intensity=0.44",
+    "target": "It feels a blend of relief and love, with relief slightly stronger than love."
+  },
+  {
+    "input": "emotions: nervousness=0.73 admiration=0.67 intensity=0.38",
+    "target": "It is a blend of nervousness and admiration, mostly nervousness with some admiration underneath."
+  },
+  {
+    "input": "emotions: confusion=0.84 intensity=0.21",
+    "target": "The tone is unmistakably confusion, at a moderate level."
+  },
+  {
+    "input": "emotions: amusement=0.54 optimism=0.37 intensity=0.52",
+    "target": "One feels amusement most strongly, but optimism lingers in the background."
+  },
+  {
+    "input": "emotions: disgust=0.66 love=0.25 intensity=0.83",
+    "target": "One feels disgust most strongly, but love lingers in the background."
+  },
+  {
+    "input": "emotions: joy=0.63 desire=0.54 intensity=0.38",
+    "target": "The feeling leans toward joy, but desire is also clearly present."
+  },
+  {
+    "input": "emotions: surprise=0.66 confusion=0.61 intensity=0.67",
+    "target": "Neither confusion nor surprise dominates; they are equally felt."
+  },
+  {
+    "input": "emotions: excitement=0.56 curiosity=0.04 intensity=0.67",
+    "target": "This carries a strong feeling of excitement."
+  },
+  {
+    "input": "emotions: curiosity=0.77 excitement=0.03 surprise=0.02 intensity=0.24",
+    "target": "There is a gentle sense of curiosity."
+  },
+  {
+    "input": "emotions: confusion=0.61 amusement=0.43 intensity=0.84",
+    "target": "A mix of confusion and amusement is felt, though confusion dominates."
+  },
+  {
+    "input": "emotions: neutral=0.88 intensity=0.07",
+    "target": "Very little emotional content is present here."
+  },
+  {
+    "input": "emotions: caring=0.69 annoyance=0.59 intensity=0.33",
+    "target": "The mood is mainly caring, with undertones of annoyance."
+  },
+  {
+    "input": "emotions: love=0.41 disappointment=0.37 intensity=0.42",
+    "target": "The mood is a delicate balance of love and disappointment."
+  },
+  {
+    "input": "emotions: desire=0.37 confusion=0.32 intensity=0.72",
+    "target": "Both desire and confusion are present in similar measure."
+  },
+  {
+    "input": "emotions: disappointment=0.88 embarrassment=0.25 intensity=0.84",
+    "target": "The heart of the feeling is disappointment, softened by a touch of embarrassment."
+  },
+  {
+    "input": "emotions: disapproval=0.60 nervousness=0.50 grief=0.17 intensity=0.53",
+    "target": "It feels a blend of disapproval and nervousness, blending disapproval, nervousness, and traces of grief."
+  },
+  {
+    "input": "emotions: confusion=0.59 desire=0.51 disgust=0.44 intensity=0.69",
+    "target": "One senses confusion most strongly, accompanied by desire and a hint of disgust."
+  },
+  {
+    "input": "emotions: annoyance=0.89 intensity=0.56",
+    "target": "The tone is unmistakably annoyance, at a present level."
+  },
+  {
+    "input": "emotions: curiosity=0.76 disapproval=0.70 fear=0.06 intensity=0.77",
+    "target": "The dominant emotion is curiosity, but disapproval and fear add depth."
+  },
+  {
+    "input": "emotions: disgust=0.52 pride=0.41 intensity=0.37",
+    "target": "A mix of disgust and pride is felt, though disgust dominates."
+  },
+  {
+    "input": "emotions: neutral=0.74 intensity=0.15",
+    "target": "There is no strong emotion detected; the mood is calm and even."
+  },
+  {
+    "input": "emotions: neutral=0.83 intensity=0.03",
+    "target": "No particular emotion stands out; it feels balanced and calm."
+  },
+  {
+    "input": "emotions: excitement=0.63 joy=0.06 intensity=0.81",
+    "target": "The tone is unmistakably excitement, at a intense level."
+  },
+  {
+    "input": "emotions: neutral=0.92 intensity=0.05",
+    "target": "The feeling is flat and neutral, without much emotional charge."
+  },
+  {
+    "input": "emotions: embarrassment=0.63 intensity=0.59",
+    "target": "The overall mood is embarrassment, with a present presence."
+  },
+  {
+    "input": "emotions: neutral=0.94 intensity=0.08",
+    "target": "The feeling is flat and neutral, without much emotional charge."
+  },
+  {
+    "input": "emotions: amusement=0.59 curiosity=0.08 intensity=0.61",
+    "target": "This carries a pronounced feeling of amusement."
+  },
+  {
+    "input": "emotions: fear=0.64 annoyance=0.35 love=0.31 intensity=0.85",
+    "target": "One senses fear most strongly, accompanied by annoyance and a hint of love."
+  },
+  {
+    "input": "emotions: disappointment=0.57 disapproval=0.49 intensity=0.47",
+    "target": "It is a blend of disappointment and disapproval, mostly disappointment with some disapproval underneath."
+  },
+  {
+    "input": "emotions: excitement=0.70 relief=0.22 intensity=0.79",
+    "target": "It feels a blend of excitement and relief, with excitement slightly stronger than relief."
+  },
+  {
+    "input": "emotions: nervousness=0.81 grief=0.65 confusion=0.31 intensity=0.61",
+    "target": "It feels a blend of nervousness and grief, blending nervousness, grief, and traces of confusion."
+  },
+  {
+    "input": "emotions: disappointment=0.93 intensity=0.46",
+    "target": "One can feel disappointment quite clearly here."
+  },
+  {
+    "input": "emotions: love=0.81 admiration=0.01 intensity=0.73",
+    "target": "The dominant feeling is love, experienced with pronounced intensity."
+  },
+  {
+    "input": "emotions: love=0.63 anger=0.24 intensity=0.61",
+    "target": "A mix of love and anger is felt, though love dominates."
+  },
+  {
+    "input": "emotions: approval=0.76 excitement=0.50 surprise=0.23 intensity=0.47",
+    "target": "It feels a blend of approval and excitement, blending approval, excitement, and traces of surprise."
+  },
+  {
+    "input": "emotions: embarrassment=0.60 joy=0.25 approval=0.15 intensity=0.82",
+    "target": "The dominant emotion is embarrassment, but joy and approval add depth."
+  },
+  {
+    "input": "emotions: love=0.89 joy=0.44 intensity=0.49",
+    "target": "There is a blend of love and joy, with love taking the lead."
+  },
+  {
+    "input": "emotions: disappointment=0.57 realization=0.29 gratitude=0.16 intensity=0.47",
+    "target": "Multiple emotions are at play: disappointment, realization, and gratitude, creating a complex emotional landscape."
+  },
+  {
+    "input": "emotions: neutral=0.85 intensity=0.11",
+    "target": "The tone is composed and emotionally neutral."
+  },
+  {
+    "input": "emotions: admiration=0.76 pride=0.41 disappointment=0.32 intensity=0.87",
+    "target": "The feeling is multifaceted: admiration leads, with pride and disappointment following."
+  },
+  {
+    "input": "emotions: neutral=0.93 intensity=0.04",
+    "target": "No particular emotion stands out; it feels balanced and calm."
+  },
+  {
+    "input": "emotions: admiration=0.68 joy=0.08 gratitude=0.06 intensity=0.51",
+    "target": "The emotion here is clearly admiration, felt presently."
+  },
+  {
+    "input": "emotions: pride=0.53 amusement=0.30 gratitude=0.11 intensity=0.45",
+    "target": "The feeling is multifaceted: pride leads, with amusement and gratitude following."
+  },
+  {
+    "input": "emotions: caring=0.46 annoyance=0.20 fear=0.18 intensity=0.45",
+    "target": "The emotions are layered: primarily caring, with annoyance and hints of fear."
+  },
+  {
+    "input": "emotions: sadness=0.35 disgust=0.32 intensity=0.35",
+    "target": "There is an equal mix of sadness and disgust."
+  },
+  {
+    "input": "emotions: excitement=0.81 sadness=0.45 caring=0.29 intensity=0.77",
+    "target": "There is excitement at the core, surrounded by sadness and a whisper of caring."
+  },
+  {
+    "input": "emotions: embarrassment=0.51 confusion=0.23 joy=0.08 intensity=0.77",
+    "target": "There is embarrassment at the core, surrounded by confusion and a whisper of joy."
+  },
+  {
+    "input": "emotions: disapproval=0.78 pride=0.07 anger=0.06 intensity=0.83",
+    "target": "The tone is unmistakably disapproval, at a overwhelming level."
+  },
+  {
+    "input": "emotions: confusion=0.64 grief=0.48 remorse=0.20 intensity=0.80",
+    "target": "The dominant emotion is confusion, but grief and remorse add depth."
+  },
+  {
+    "input": "emotions: relief=0.89 intensity=0.74",
+    "target": "There is a deep sense of relief."
+  },
+  {
+    "input": "emotions: approval=0.80 surprise=0.64 intensity=0.53",
+    "target": "approval is the primary emotion, accompanied by surprise."
+  },
+  {
+    "input": "emotions: embarrassment=0.79 caring=0.34 joy=0.21 intensity=0.89",
+    "target": "One senses embarrassment most strongly, accompanied by caring and a hint of joy."
+  },
+  {
+    "input": "emotions: joy=0.76 grief=0.40 intensity=0.44",
+    "target": "There is a blend of joy and grief, with joy taking the lead."
+  },
+  {
+    "input": "emotions: gratitude=0.95 embarrassment=0.06 desire=0.02 intensity=0.37",
+    "target": "The overall mood is gratitude, with a quiet presence."
+  },
+  {
+    "input": "emotions: amusement=0.56 caring=0.31 intensity=0.69",
+    "target": "The heart of the feeling is amusement, softened by a touch of caring."
+  },
+  {
+    "input": "emotions: amusement=0.80 fear=0.44 approval=0.16 intensity=0.61",
+    "target": "Multiple emotions are at play: amusement, fear, and approval, creating a complex emotional landscape."
+  },
+  {
+    "input": "emotions: realization=0.47 anger=0.24 annoyance=0.09 intensity=0.64",
+    "target": "The emotions are layered: primarily realization, with anger and hints of annoyance."
+  },
+  {
+    "input": "emotions: optimism=0.46 remorse=0.08 intensity=0.35",
+    "target": "A gentle undercurrent of optimism runs through this."
+  },
+  {
+    "input": "emotions: amusement=0.58 intensity=0.47",
+    "target": "The emotion here is clearly amusement, felt clearly."
+  },
+  {
+    "input": "emotions: grief=0.41 desire=0.40 intensity=0.38",
+    "target": "A tension between desire and grief defines the emotional tone."
+  },
+  {
+    "input": "emotions: fear=0.63 excitement=0.61 intensity=0.35",
+    "target": "There is an equal mix of fear and excitement."
+  },
+  {
+    "input": "emotions: neutral=0.75 intensity=0.06",
+    "target": "The tone is composed and emotionally neutral."
+  },
+  {
+    "input": "emotions: relief=0.86 gratitude=0.01 embarrassment=0.01 intensity=0.39",
+    "target": "The overall mood is relief, with a soft presence."
+  },
+  {
+    "input": "emotions: fear=0.46 admiration=0.38 excitement=0.31 intensity=0.77",
+    "target": "The dominant emotion is fear, but admiration and excitement add depth."
+  },
+  {
+    "input": "emotions: sadness=0.67 optimism=0.21 intensity=0.42",
+    "target": "A mix of sadness and optimism is felt, though sadness dominates."
+  },
+  {
+    "input": "emotions: approval=0.45 embarrassment=0.35 intensity=0.63",
+    "target": "approval dominates the emotional landscape, with embarrassment adding nuance."
+  },
+  {
+    "input": "emotions: neutral=0.76 intensity=0.04",
+    "target": "No particular emotion stands out; it feels balanced and calm."
+  },
+  {
+    "input": "emotions: amusement=0.62 nervousness=0.59 intensity=0.68",
+    "target": "amusement and nervousness coexist in a balanced way."
+  },
+  {
+    "input": "emotions: fear=0.54 disappointment=0.51 intensity=0.66",
+    "target": "fear and disappointment coexist in a balanced way."
+  },
+  {
+    "input": "emotions: anger=0.72 sadness=0.34 intensity=0.48",
+    "target": "A mix of anger and sadness is felt, though anger dominates."
+  },
+  {
+    "input": "emotions: approval=0.81 sadness=0.45 intensity=0.72",
+    "target": "A mix of approval and sadness is felt, though approval dominates."
+  },
+  {
+    "input": "emotions: approval=0.72 pride=0.69 intensity=0.74",
+    "target": "The mood is a delicate balance of pride and approval."
+  },
+  {
+    "input": "emotions: neutral=0.89 intensity=0.02",
+    "target": "The tone is composed and emotionally neutral."
+  },
+  {
+    "input": "emotions: neutral=0.73 intensity=0.12",
+    "target": "Very little emotional content is present here."
+  },
+  {
+    "input": "emotions: optimism=0.93 joy=0.09 confusion=0.05 intensity=0.67",
+    "target": "The tone is unmistakably optimism, at a strong level."
+  },
+  {
+    "input": "emotions: gratitude=0.60 nervousness=0.40 intensity=0.84",
+    "target": "gratitude dominates the emotional landscape, with nervousness adding nuance."
+  },
+  {
+    "input": "emotions: approval=0.62 sadness=0.32 disgust=0.13 intensity=0.41",
+    "target": "The emotions are layered: primarily approval, with sadness and hints of disgust."
+  },
+  {
+    "input": "emotions: remorse=0.71 curiosity=0.54 relief=0.18 intensity=0.49",
+    "target": "The dominant emotion is remorse, but curiosity and relief add depth."
+  },
+  {
+    "input": "emotions: embarrassment=0.78 confusion=0.25 anger=0.15 intensity=0.67",
+    "target": "One senses embarrassment most strongly, accompanied by confusion and a hint of anger."
+  },
+  {
+    "input": "emotions: relief=0.74 disgust=0.48 sadness=0.33 intensity=0.60",
+    "target": "One senses relief most strongly, accompanied by disgust and a hint of sadness."
+  },
+  {
+    "input": "emotions: disgust=0.81 curiosity=0.01 disappointment=0.01 intensity=0.55",
+    "target": "There is a moderate sense of disgust."
+  },
+  {
+    "input": "emotions: embarrassment=0.89 love=0.05 anger=0.02 intensity=0.24",
+    "target": "There is a quiet sense of embarrassment."
+  },
+  {
+    "input": "emotions: optimism=0.46 pride=0.23 intensity=0.65",
+    "target": "optimism is the primary emotion, accompanied by pride."
+  },
+  {
+    "input": "emotions: annoyance=0.66 admiration=0.43 intensity=0.80",
+    "target": "It is a blend of annoyance and admiration, mostly annoyance with some admiration underneath."
+  },
+  {
+    "input": "emotions: neutral=0.79 intensity=0.08",
+    "target": "The feeling is flat and neutral, without much emotional charge."
+  },
+  {
+    "input": "emotions: disappointment=0.47 pride=0.34 disgust=0.16 intensity=0.58",
+    "target": "The feeling is multifaceted: disappointment leads, with pride and disgust following."
+  },
+  {
+    "input": "emotions: neutral=0.87 intensity=0.13",
+    "target": "Very little emotional content is present here."
+  },
+  {
+    "input": "emotions: surprise=0.51 pride=0.36 intensity=0.60",
+    "target": "There is a blend of surprise and pride, with surprise taking the lead."
+  },
+  {
+    "input": "emotions: neutral=0.88 intensity=0.03",
+    "target": "The emotional tone is relatively neutral."
+  },
+  {
+    "input": "emotions: neutral=0.92 intensity=0.07",
+    "target": "Very little emotional content is present here."
+  },
+  {
+    "input": "emotions: curiosity=0.57 grief=0.50 intensity=0.63",
+    "target": "It is a blend of curiosity and grief, mostly curiosity with some grief underneath."
+  },
+  {
+    "input": "emotions: disgust=0.48 amusement=0.39 intensity=0.72",
+    "target": "The mood is mainly disgust, with undertones of amusement."
+  },
+  {
+    "input": "emotions: anger=0.54 intensity=0.83",
+    "target": "A intense wave of anger is present."
+  },
+  {
+    "input": "emotions: anger=0.56 love=0.55 intensity=0.69",
+    "target": "It is hard to tell if love or anger is stronger; both are present."
+  },
+  {
+    "input": "emotions: optimism=0.46 approval=0.40 annoyance=0.33 intensity=0.72",
+    "target": "The emotions are layered: primarily optimism, with approval and hints of annoyance."
+  },
+  {
+    "input": "emotions: optimism=0.83 amusement=0.06 intensity=0.71",
+    "target": "A deep wave of optimism is present."
+  },
+  {
+    "input": "emotions: optimism=0.87 desire=0.68 intensity=0.64",
+    "target": "It is a blend of optimism and desire, mostly optimism with some desire underneath."
+  },
+  {
+    "input": "emotions: neutral=0.78 intensity=0.15",
+    "target": "Very little emotional content is present here."
+  },
+  {
+    "input": "emotions: disgust=0.75 realization=0.36 intensity=0.45",
+    "target": "The mood is mainly disgust, with undertones of realization."
+  },
+  {
+    "input": "emotions: grief=0.62 optimism=0.31 confusion=0.14 intensity=0.67",
+    "target": "One senses grief most strongly, accompanied by optimism and a hint of confusion."
+  },
+  {
+    "input": "emotions: neutral=0.72 intensity=0.12",
+    "target": "The emotional tone is relatively neutral."
+  },
+  {
+    "input": "emotions: admiration=0.61 curiosity=0.37 nervousness=0.16 intensity=0.44",
+    "target": "A complex mix of admiration, curiosity, and a touch of nervousness."
+  },
+  {
+    "input": "emotions: caring=0.66 surprise=0.09 love=0.03 intensity=0.57",
+    "target": "caring is the primary emotion, and it feels noticeable."
+  },
+  {
+    "input": "emotions: disappointment=0.84 fear=0.68 intensity=0.59",
+    "target": "disappointment is the primary emotion, accompanied by fear."
+  },
+  {
+    "input": "emotions: realization=0.86 pride=0.50 intensity=0.45",
+    "target": "The feeling leans toward realization, but pride is also clearly present."
+  },
+  {
+    "input": "emotions: curiosity=0.80 joy=0.38 relief=0.24 intensity=0.77",
+    "target": "The dominant emotion is curiosity, but joy and relief add depth."
+  },
+  {
+    "input": "emotions: curiosity=0.61 realization=0.22 intensity=0.81",
+    "target": "curiosity is the primary emotion, accompanied by realization."
+  },
+  {
+    "input": "emotions: amusement=0.41 grief=0.10 joy=0.07 intensity=0.49",
+    "target": "The emotion here is clearly amusement, felt presently."
+  },
+  {
+    "input": "emotions: fear=0.68 approval=0.67 intensity=0.50",
+    "target": "There is an equal mix of approval and fear."
+  },
+  {
+    "input": "emotions: confusion=0.68 fear=0.39 intensity=0.82",
+    "target": "It feels a blend of confusion and fear, with confusion slightly stronger than fear."
+  },
+  {
+    "input": "emotions: relief=0.57 disgust=0.40 embarrassment=0.18 intensity=0.85",
+    "target": "The feeling is multifaceted: relief leads, with disgust and embarrassment following."
+  },
+  {
+    "input": "emotions: curiosity=0.76 embarrassment=0.29 intensity=0.55",
+    "target": "The feeling leans toward curiosity, but embarrassment is also clearly present."
+  },
+  {
+    "input": "emotions: realization=0.73 optimism=0.46 intensity=0.47",
+    "target": "One feels realization most strongly, but optimism lingers in the background."
+  },
+  {
+    "input": "emotions: admiration=0.50 optimism=0.01 intensity=0.40",
+    "target": "A moderate wave of admiration is present."
+  },
+  {
+    "input": "emotions: joy=0.64 pride=0.41 intensity=0.83",
+    "target": "It is a blend of joy and pride, mostly joy with some pride underneath."
+  },
+  {
+    "input": "emotions: surprise=0.72 grief=0.33 sadness=0.23 intensity=0.44",
+    "target": "One senses surprise most strongly, accompanied by grief and a hint of sadness."
+  },
+  {
+    "input": "emotions: embarrassment=0.49 intensity=0.75",
+    "target": "The dominant feeling is embarrassment, experienced with pronounced intensity."
+  },
+  {
+    "input": "emotions: approval=0.74 caring=0.04 intensity=0.71",
+    "target": "A significant undercurrent of approval runs through this."
+  },
+  {
+    "input": "emotions: realization=0.74 disgust=0.26 intensity=0.35",
+    "target": "The heart of the feeling is realization, softened by a touch of disgust."
+  },
+  {
+    "input": "emotions: disapproval=0.48 joy=0.10 fear=0.01 intensity=0.48",
+    "target": "There is a noticeable sense of disapproval."
+  },
+  {
+    "input": "emotions: amusement=0.81 fear=0.06 intensity=0.79",
+    "target": "The dominant feeling is amusement, experienced with strong intensity."
+  },
+  {
+    "input": "emotions: caring=0.55 grief=0.10 gratitude=0.04 intensity=0.88",
+    "target": "A overwhelming undercurrent of caring runs through this."
+  },
+  {
+    "input": "emotions: excitement=0.53 disgust=0.40 intensity=0.44",
+    "target": "The feeling leans toward excitement, but disgust is also clearly present."
+  },
+  {
+    "input": "emotions: realization=0.68 optimism=0.44 intensity=0.76",
+    "target": "There is a blend of realization and optimism, with realization taking the lead."
+  },
+  {
+    "input": "emotions: pride=0.44 embarrassment=0.42 intensity=0.34",
+    "target": "The feeling is split between pride and embarrassment."
+  },
+  {
+    "input": "emotions: joy=0.47 nervousness=0.33 intensity=0.47",
+    "target": "One feels joy most strongly, but nervousness lingers in the background."
+  },
+  {
+    "input": "emotions: admiration=0.38 nervousness=0.37 intensity=0.54",
+    "target": "The mood is a delicate balance of admiration and nervousness."
+  },
+  {
+    "input": "emotions: neutral=0.83 intensity=0.10",
+    "target": "Very little emotional content is present here."
+  },
+  {
+    "input": "emotions: disapproval=0.46 fear=0.23 disgust=0.18 intensity=0.45",
+    "target": "It feels a blend of disapproval and fear, blending disapproval, fear, and traces of disgust."
+  },
+  {
+    "input": "emotions: realization=0.55 excitement=0.43 optimism=0.18 intensity=0.66",
+    "target": "The feeling is multifaceted: realization leads, with excitement and optimism following."
+  },
+  {
+    "input": "emotions: optimism=0.68 admiration=0.03 intensity=0.44",
+    "target": "This carries a clear feeling of optimism."
+  },
+  {
+    "input": "emotions: sadness=0.74 disgust=0.55 gratitude=0.36 intensity=0.48",
+    "target": "One senses sadness most strongly, accompanied by disgust and a hint of gratitude."
+  },
+  {
+    "input": "emotions: amusement=0.80 remorse=0.53 approval=0.25 intensity=0.79",
+    "target": "The emotions are layered: primarily amusement, with remorse and hints of approval."
+  },
+  {
+    "input": "emotions: nervousness=0.57 surprise=0.49 intensity=0.62",
+    "target": "The heart of the feeling is nervousness, softened by a touch of surprise."
+  },
+  {
+    "input": "emotions: optimism=0.69 confusion=0.04 intensity=0.83",
+    "target": "The tone is unmistakably optimism, at a overwhelming level."
+  },
+  {
+    "input": "emotions: desire=0.45 amusement=0.07 optimism=0.07 intensity=0.85",
+    "target": "The tone is unmistakably desire, at a very strong level."
+  },
+  {
+    "input": "emotions: caring=0.54 amusement=0.48 realization=0.32 intensity=0.77",
+    "target": "The dominant emotion is caring, but amusement and realization add depth."
+  },
+  {
+    "input": "emotions: desire=0.74 embarrassment=0.63 intensity=0.45",
+    "target": "One feels desire most strongly, but embarrassment lingers in the background."
+  },
+  {
+    "input": "emotions: joy=0.88 embarrassment=0.09 intensity=0.50",
+    "target": "The dominant feeling is joy, experienced with present intensity."
+  },
+  {
+    "input": "emotions: sadness=0.85 confusion=0.43 disgust=0.34 intensity=0.48",
+    "target": "It feels a blend of sadness and confusion, blending sadness, confusion, and traces of disgust."
+  },
+  {
+    "input": "emotions: realization=0.68 relief=0.41 nervousness=0.38 intensity=0.83",
+    "target": "Multiple emotions are at play: realization, relief, and nervousness, creating a complex emotional landscape."
+  },
+  {
+    "input": "emotions: disappointment=0.51 pride=0.05 intensity=0.23",
+    "target": "There is a quiet sense of disappointment."
+  },
+  {
+    "input": "emotions: amusement=0.69 approval=0.01 intensity=0.65",
+    "target": "The dominant feeling is amusement, experienced with deep intensity."
+  },
+  {
+    "input": "emotions: disappointment=0.55 surprise=0.24 caring=0.07 intensity=0.74",
+    "target": "The feeling is multifaceted: disappointment leads, with surprise and caring following."
+  },
+  {
+    "input": "emotions: optimism=0.41 grief=0.36 intensity=0.72",
+    "target": "The feeling is split between grief and optimism."
+  },
+  {
+    "input": "emotions: neutral=0.87 intensity=0.15",
+    "target": "The feeling is flat and neutral, without much emotional charge."
+  },
+  {
+    "input": "emotions: disgust=0.74 amusement=0.39 realization=0.33 intensity=0.62",
+    "target": "It feels a blend of disgust and amusement, blending disgust, amusement, and traces of realization."
+  },
+  {
+    "input": "emotions: optimism=0.86 curiosity=0.63 intensity=0.45",
+    "target": "It is a blend of optimism and curiosity, mostly optimism with some curiosity underneath."
+  },
+  {
+    "input": "emotions: optimism=0.50 annoyance=0.32 intensity=0.47",
+    "target": "A mix of optimism and annoyance is felt, though optimism dominates."
+  },
+  {
+    "input": "emotions: neutral=0.71 intensity=0.12",
+    "target": "The emotional tone is relatively neutral."
+  },
+  {
+    "input": "emotions: anger=0.85 relief=0.51 admiration=0.47 intensity=0.61",
+    "target": "The emotions are layered: primarily anger, with relief and hints of admiration."
+  },
+  {
+    "input": "emotions: realization=0.46 grief=0.21 intensity=0.74",
+    "target": "It feels a blend of realization and grief, with realization slightly stronger than grief."
+  },
+  {
+    "input": "emotions: grief=0.60 gratitude=0.46 annoyance=0.23 intensity=0.50",
+    "target": "One senses grief most strongly, accompanied by gratitude and a hint of annoyance."
+  },
+  {
+    "input": "emotions: grief=0.60 love=0.57 intensity=0.76",
+    "target": "A tension between grief and love defines the emotional tone."
+  },
+  {
+    "input": "emotions: joy=0.51 confusion=0.45 intensity=0.65",
+    "target": "One feels joy most strongly, but confusion lingers in the background."
+  },
+  {
+    "input": "emotions: sadness=0.84 relief=0.26 confusion=0.22 intensity=0.55",
+    "target": "One senses sadness most strongly, accompanied by relief and a hint of confusion."
+  },
+  {
+    "input": "emotions: fear=0.56 curiosity=0.46 sadness=0.21 intensity=0.77",
+    "target": "A complex mix of fear, curiosity, and a touch of sadness."
+  },
+  {
+    "input": "emotions: caring=0.79 realization=0.58 nervousness=0.55 intensity=0.47",
+    "target": "One senses caring most strongly, accompanied by realization and a hint of nervousness."
+  },
+  {
+    "input": "emotions: embarrassment=0.47 admiration=0.05 grief=0.04 intensity=0.34",
+    "target": "The overall mood is embarrassment, with a quiet presence."
+  },
+  {
+    "input": "emotions: relief=0.54 sadness=0.24 pride=0.10 intensity=0.77",
+    "target": "One senses relief most strongly, accompanied by sadness and a hint of pride."
+  },
+  {
+    "input": "emotions: optimism=0.85 admiration=0.60 intensity=0.54",
+    "target": "optimism dominates the emotional landscape, with admiration adding nuance."
+  },
+  {
+    "input": "emotions: amusement=0.66 annoyance=0.26 surprise=0.10 intensity=0.49",
+    "target": "One senses amusement most strongly, accompanied by annoyance and a hint of surprise."
+  },
+  {
+    "input": "emotions: joy=0.62 nervousness=0.54 intensity=0.58",
+    "target": "It is a blend of joy and nervousness, mostly joy with some nervousness underneath."
+  },
+  {
+    "input": "emotions: neutral=0.71 intensity=0.09",
+    "target": "The tone is composed and emotionally neutral."
+  },
+  {
+    "input": "emotions: anger=0.64 fear=0.53 love=0.12 intensity=0.67",
+    "target": "The emotions are layered: primarily anger, with fear and hints of love."
+  },
+  {
+    "input": "emotions: gratitude=0.64 admiration=0.54 disgust=0.29 intensity=0.43",
+    "target": "It feels a blend of gratitude and admiration, blending gratitude, admiration, and traces of disgust."
+  },
+  {
+    "input": "emotions: confusion=0.84 admiration=0.05 anger=0.03 intensity=0.54",
+    "target": "The dominant feeling is confusion, experienced with present intensity."
+  },
+  {
+    "input": "emotions: disapproval=0.81 nervousness=0.09 intensity=0.77",
+    "target": "A significant wave of disapproval is present."
+  },
+  {
+    "input": "emotions: curiosity=0.65 disgust=0.43 intensity=0.42",
+    "target": "The mood is mainly curiosity, with undertones of disgust."
+  },
+  {
+    "input": "emotions: admiration=0.50 desire=0.45 intensity=0.85",
+    "target": "admiration is the primary emotion, accompanied by desire."
+  },
+  {
+    "input": "emotions: excitement=0.53 sadness=0.21 confusion=0.15 intensity=0.89",
+    "target": "Multiple emotions are at play: excitement, sadness, and confusion, creating a complex emotional landscape."
+  },
+  {
+    "input": "emotions: gratitude=0.61 curiosity=0.47 intensity=0.65",
+    "target": "One feels gratitude most strongly, but curiosity lingers in the background."
+  },
+  {
+    "input": "emotions: admiration=0.85 caring=0.44 anger=0.06 intensity=0.62",
+    "target": "Multiple emotions are at play: admiration, caring, and anger, creating a complex emotional landscape."
+  },
+  {
+    "input": "emotions: realization=0.82 approval=0.47 disappointment=0.37 intensity=0.68",
+    "target": "A complex mix of realization, approval, and a touch of disappointment."
+  },
+  {
+    "input": "emotions: annoyance=0.77 approval=0.44 intensity=0.53",
+    "target": "annoyance dominates the emotional landscape, with approval adding nuance."
+  },
+  {
+    "input": "emotions: love=0.54 disappointment=0.25 embarrassment=0.12 intensity=0.57",
+    "target": "The feeling is multifaceted: love leads, with disappointment and embarrassment following."
+  },
+  {
+    "input": "emotions: confusion=0.50 realization=0.24 nervousness=0.09 intensity=0.53",
+    "target": "There is confusion at the core, surrounded by realization and a whisper of nervousness."
+  },
+  {
+    "input": "emotions: realization=0.84 excitement=0.37 intensity=0.80",
+    "target": "The feeling leans toward realization, but excitement is also clearly present."
+  },
+  {
+    "input": "emotions: surprise=0.48 optimism=0.31 disgust=0.23 intensity=0.75",
+    "target": "One senses surprise most strongly, accompanied by optimism and a hint of disgust."
+  },
+  {
+    "input": "emotions: realization=0.60 surprise=0.29 intensity=0.76",
+    "target": "The feeling leans toward realization, but surprise is also clearly present."
+  },
+  {
+    "input": "emotions: admiration=0.47 disapproval=0.37 disgust=0.15 intensity=0.61",
+    "target": "It feels a blend of admiration and disapproval, blending admiration, disapproval, and traces of disgust."
+  },
+  {
+    "input": "emotions: surprise=0.45 curiosity=0.07 joy=0.04 intensity=0.37",
+    "target": "This carries a moderate feeling of surprise."
+  },
+  {
+    "input": "emotions: excitement=0.83 curiosity=0.74 joy=0.17 intensity=0.60",
+    "target": "One senses excitement most strongly, accompanied by curiosity and a hint of joy."
+  },
+  {
+    "input": "emotions: optimism=0.60 caring=0.01 intensity=0.65",
+    "target": "optimism is the primary emotion, and it feels deep."
+  },
+  {
+    "input": "emotions: pride=0.83 relief=0.06 desire=0.02 intensity=0.31",
+    "target": "The overall mood is pride, with a soft presence."
+  },
+  {
+    "input": "emotions: admiration=0.45 disapproval=0.07 intensity=0.27",
+    "target": "admiration is the primary emotion, and it feels moderate."
+  },
+  {
+    "input": "emotions: neutral=0.87 intensity=0.09",
+    "target": "Very little emotional content is present here."
+  },
+  {
+    "input": "emotions: neutral=0.74 intensity=0.03",
+    "target": "There is no strong emotion detected; the mood is calm and even."
+  },
+  {
+    "input": "emotions: desire=0.72 caring=0.55 intensity=0.42",
+    "target": "The mood is mainly desire, with undertones of caring."
+  },
+  {
+    "input": "emotions: disgust=0.71 annoyance=0.34 fear=0.16 intensity=0.85",
+    "target": "The dominant emotion is disgust, but annoyance and fear add depth."
+  },
+  {
+    "input": "emotions: desire=0.57 surprise=0.57 intensity=0.71",
+    "target": "The mood is a delicate balance of desire and surprise."
+  },
+  {
+    "input": "emotions: embarrassment=0.89 surprise=0.06 intensity=0.78",
+    "target": "The tone is unmistakably embarrassment, at a significant level."
+  },
+  {
+    "input": "emotions: confusion=0.75 gratitude=0.09 embarrassment=0.05 intensity=0.27",
+    "target": "This carries a moderate feeling of confusion."
+  },
+  {
+    "input": "emotions: nervousness=0.53 admiration=0.25 intensity=0.74",
+    "target": "It is a blend of nervousness and admiration, mostly nervousness with some admiration underneath."
+  },
+  {
+    "input": "emotions: disappointment=0.65 disapproval=0.24 realization=0.13 intensity=0.75",
+    "target": "A complex mix of disappointment, disapproval, and a touch of realization."
+  },
+  {
+    "input": "emotions: gratitude=0.67 love=0.23 disapproval=0.20 intensity=0.87",
+    "target": "A complex mix of gratitude, love, and a touch of disapproval."
+  },
+  {
+    "input": "emotions: gratitude=0.78 caring=0.41 intensity=0.30",
+    "target": "The mood is mainly gratitude, with undertones of caring."
+  },
+  {
+    "input": "emotions: pride=0.58 fear=0.31 realization=0.08 intensity=0.45",
+    "target": "The emotions are layered: primarily pride, with fear and hints of realization."
+  },
+  {
+    "input": "emotions: neutral=0.72 intensity=0.05",
+    "target": "The emotional tone is relatively neutral."
+  },
+  {
+    "input": "emotions: realization=0.64 disapproval=0.51 confusion=0.12 intensity=0.40",
+    "target": "The dominant emotion is realization, but disapproval and confusion add depth."
+  },
+  {
+    "input": "emotions: grief=0.77 caring=0.59 optimism=0.53 intensity=0.80",
+    "target": "Multiple emotions are at play: grief, caring, and optimism, creating a complex emotional landscape."
+  },
+  {
+    "input": "emotions: neutral=0.83 intensity=0.12",
+    "target": "The feeling is flat and neutral, without much emotional charge."
+  },
+  {
+    "input": "emotions: admiration=0.67 intensity=0.56",
+    "target": "admiration is the primary emotion, and it feels moderate."
+  },
+  {
+    "input": "emotions: pride=0.60 disapproval=0.49 admiration=0.27 intensity=0.74",
+    "target": "The emotions are layered: primarily pride, with disapproval and hints of admiration."
+  },
+  {
+    "input": "emotions: realization=0.61 caring=0.44 disappointment=0.09 intensity=0.50",
+    "target": "There is realization at the core, surrounded by caring and a whisper of disappointment."
+  },
+  {
+    "input": "emotions: joy=0.50 annoyance=0.32 surprise=0.29 intensity=0.76",
+    "target": "A complex mix of joy, annoyance, and a touch of surprise."
+  },
+  {
+    "input": "emotions: nervousness=0.84 amusement=0.32 intensity=0.49",
+    "target": "One feels nervousness most strongly, but amusement lingers in the background."
+  },
+  {
+    "input": "emotions: embarrassment=0.86 nervousness=0.38 intensity=0.52",
+    "target": "embarrassment is the primary emotion, accompanied by nervousness."
+  },
+  {
+    "input": "emotions: grief=0.55 surprise=0.32 relief=0.14 intensity=0.56",
+    "target": "It feels a blend of grief and surprise, blending grief, surprise, and traces of relief."
+  },
+  {
+    "input": "emotions: curiosity=0.70 realization=0.64 intensity=0.68",
+    "target": "The heart of the feeling is curiosity, softened by a touch of realization."
+  },
+  {
+    "input": "emotions: joy=0.62 relief=0.24 disappointment=0.19 intensity=0.56",
+    "target": "Multiple emotions are at play: joy, relief, and disappointment, creating a complex emotional landscape."
+  },
+  {
+    "input": "emotions: embarrassment=0.50 excitement=0.47 intensity=0.53",
+    "target": "Neither excitement nor embarrassment dominates; they are equally felt."
+  },
+  {
+    "input": "emotions: neutral=0.90 intensity=0.09",
+    "target": "The feeling is flat and neutral, without much emotional charge."
+  },
+  {
+    "input": "emotions: confusion=0.87 love=0.43 intensity=0.34",
+    "target": "The feeling leans toward confusion, but love is also clearly present."
+  },
+  {
+    "input": "emotions: amusement=0.88 optimism=0.51 intensity=0.42",
+    "target": "The heart of the feeling is amusement, softened by a touch of optimism."
+  },
+  {
+    "input": "emotions: neutral=0.81 intensity=0.06",
+    "target": "Very little emotional content is present here."
+  },
+  {
+    "input": "emotions: excitement=0.52 optimism=0.44 gratitude=0.31 intensity=0.74",
+    "target": "It feels a blend of excitement and optimism, blending excitement, optimism, and traces of gratitude."
+  },
+  {
+    "input": "emotions: realization=0.52 disappointment=0.42 pride=0.30 intensity=0.55",
+    "target": "One senses realization most strongly, accompanied by disappointment and a hint of pride."
+  },
+  {
+    "input": "emotions: grief=0.55 caring=0.05 intensity=0.51",
+    "target": "One can feel grief quite moderately here."
+  },
+  {
+    "input": "emotions: realization=0.54 disgust=0.27 curiosity=0.07 intensity=0.41",
+    "target": "One senses realization most strongly, accompanied by disgust and a hint of curiosity."
+  },
+  {
+    "input": "emotions: caring=0.83 amusement=0.22 gratitude=0.16 intensity=0.63",
+    "target": "A complex mix of caring, amusement, and a touch of gratitude."
+  },
+  {
+    "input": "emotions: optimism=0.56 disappointment=0.34 intensity=0.40",
+    "target": "A mix of optimism and disappointment is felt, though optimism dominates."
+  },
+  {
+    "input": "emotions: neutral=0.94 intensity=0.14",
+    "target": "No particular emotion stands out; it feels balanced and calm."
+  },
+  {
+    "input": "emotions: nervousness=0.53 intensity=0.67",
+    "target": "This carries a significant feeling of nervousness."
+  },
+  {
+    "input": "emotions: nervousness=0.78 intensity=0.64",
+    "target": "A strong wave of nervousness is present."
+  },
+  {
+    "input": "emotions: annoyance=0.76 joy=0.42 intensity=0.40",
+    "target": "It feels a blend of annoyance and joy, with annoyance slightly stronger than joy."
+  },
+  {
+    "input": "emotions: love=0.82 sadness=0.47 realization=0.10 intensity=0.42",
+    "target": "There is love at the core, surrounded by sadness and a whisper of realization."
+  },
+  {
+    "input": "emotions: excitement=0.84 disappointment=0.37 intensity=0.64",
+    "target": "One feels excitement most strongly, but disappointment lingers in the background."
+  },
+  {
+    "input": "emotions: fear=0.61 intensity=0.23",
+    "target": "This carries a soft feeling of fear."
+  },
+  {
+    "input": "emotions: relief=0.86 grief=0.52 intensity=0.84",
+    "target": "The heart of the feeling is relief, softened by a touch of grief."
+  },
+  {
+    "input": "emotions: neutral=0.89 intensity=0.13",
+    "target": "The tone is composed and emotionally neutral."
+  },
+  {
+    "input": "emotions: amusement=0.52 optimism=0.25 embarrassment=0.14 intensity=0.45",
+    "target": "A complex mix of amusement, optimism, and a touch of embarrassment."
+  },
+  {
+    "input": "emotions: pride=0.62 admiration=0.45 intensity=0.58",
+    "target": "The feeling leans toward pride, but admiration is also clearly present."
+  },
+  {
+    "input": "emotions: anger=0.55 love=0.33 disgust=0.28 intensity=0.45",
+    "target": "One senses anger most strongly, accompanied by love and a hint of disgust."
+  },
+  {
+    "input": "emotions: fear=0.80 disgust=0.56 intensity=0.64",
+    "target": "One feels fear most strongly, but disgust lingers in the background."
+  },
+  {
+    "input": "emotions: remorse=0.75 nervousness=0.09 intensity=0.84",
+    "target": "remorse is the primary emotion, and it feels overwhelming."
+  },
+  {
+    "input": "emotions: embarrassment=0.70 grief=0.46 nervousness=0.39 intensity=0.46",
+    "target": "The feeling is multifaceted: embarrassment leads, with grief and nervousness following."
+  },
+  {
+    "input": "emotions: gratitude=0.44 disappointment=0.42 intensity=0.77",
+    "target": "A tension between gratitude and disappointment defines the emotional tone."
+  },
+  {
+    "input": "emotions: gratitude=0.65 intensity=0.67",
+    "target": "A strong wave of gratitude is present."
+  },
+  {
+    "input": "emotions: desire=0.73 realization=0.33 disgust=0.20 intensity=0.49",
+    "target": "The feeling is multifaceted: desire leads, with realization and disgust following."
+  },
+  {
+    "input": "emotions: realization=0.90 love=0.07 intensity=0.43",
+    "target": "A present undercurrent of realization runs through this."
+  },
+  {
+    "input": "emotions: disgust=0.78 surprise=0.34 desire=0.06 intensity=0.62",
+    "target": "The emotions are layered: primarily disgust, with surprise and hints of desire."
+  },
+  {
+    "input": "emotions: neutral=0.95 intensity=0.04",
+    "target": "Very little emotional content is present here."
+  },
+  {
+    "input": "emotions: neutral=0.89 intensity=0.10",
+    "target": "The tone is composed and emotionally neutral."
+  },
+  {
+    "input": "emotions: approval=0.50 annoyance=0.09 desire=0.03 intensity=0.53",
+    "target": "The dominant feeling is approval, experienced with moderate intensity."
+  },
+  {
+    "input": "emotions: annoyance=0.65 intensity=0.34",
+    "target": "A gentle undercurrent of annoyance runs through this."
+  },
+  {
+    "input": "emotions: optimism=0.50 desire=0.47 intensity=0.47",
+    "target": "optimism and desire coexist in a balanced way."
+  },
+  {
+    "input": "emotions: neutral=0.82 intensity=0.12",
+    "target": "There is no strong emotion detected; the mood is calm and even."
+  },
+  {
+    "input": "emotions: love=0.82 relief=0.70 disappointment=0.30 intensity=0.63",
+    "target": "It feels a blend of love and relief, blending love, relief, and traces of disappointment."
+  },
+  {
+    "input": "emotions: excitement=0.79 amusement=0.08 desire=0.07 intensity=0.37",
+    "target": "A gentle undercurrent of excitement runs through this."
+  },
+  {
+    "input": "emotions: disappointment=0.74 intensity=0.83",
+    "target": "This carries a intense feeling of disappointment."
+  },
+  {
+    "input": "emotions: approval=0.87 intensity=0.52",
+    "target": "There is a clear sense of approval."
+  },
+  {
+    "input": "emotions: nervousness=0.69 excitement=0.43 intensity=0.85",
+    "target": "The heart of the feeling is nervousness, softened by a touch of excitement."
+  },
+  {
+    "input": "emotions: approval=0.74 love=0.56 grief=0.10 intensity=0.62",
+    "target": "One senses approval most strongly, accompanied by love and a hint of grief."
+  },
+  {
+    "input": "emotions: neutral=0.89 intensity=0.13",
+    "target": "There is no strong emotion detected; the mood is calm and even."
+  },
+  {
+    "input": "emotions: pride=0.76 sadness=0.58 intensity=0.49",
+    "target": "One feels pride most strongly, but sadness lingers in the background."
+  },
+  {
+    "input": "emotions: disappointment=0.68 relief=0.46 intensity=0.47",
+    "target": "It feels a blend of disappointment and relief, with disappointment slightly stronger than relief."
+  },
+  {
+    "input": "emotions: annoyance=0.55 admiration=0.22 intensity=0.37",
+    "target": "There is a blend of annoyance and admiration, with annoyance taking the lead."
+  },
+  {
+    "input": "emotions: pride=0.78 curiosity=0.56 disgust=0.35 intensity=0.77",
+    "target": "The feeling is multifaceted: pride leads, with curiosity and disgust following."
+  },
+  {
+    "input": "emotions: neutral=0.82 intensity=0.05",
+    "target": "The feeling is flat and neutral, without much emotional charge."
+  },
+  {
+    "input": "emotions: confusion=0.63 pride=0.54 caring=0.06 intensity=0.83",
+    "target": "It feels a blend of confusion and pride, blending confusion, pride, and traces of caring."
+  },
+  {
+    "input": "emotions: disapproval=0.87 excitement=0.02 intensity=0.54",
+    "target": "One can feel disapproval quite moderately here."
+  },
+  {
+    "input": "emotions: surprise=0.86 intensity=0.82",
+    "target": "There is a intense sense of surprise."
+  },
+  {
+    "input": "emotions: optimism=0.54 grief=0.28 gratitude=0.08 intensity=0.83",
+    "target": "One senses optimism most strongly, accompanied by grief and a hint of gratitude."
+  },
+  {
+    "input": "emotions: gratitude=0.40 confusion=0.37 intensity=0.44",
+    "target": "gratitude and confusion coexist in a balanced way."
+  },
+  {
+    "input": "emotions: disapproval=0.41 surprise=0.09 disappointment=0.06 intensity=0.40",
+    "target": "The dominant feeling is disapproval, experienced with present intensity."
+  },
+  {
+    "input": "emotions: disapproval=0.85 amusement=0.22 realization=0.19 intensity=0.46",
+    "target": "The feeling is multifaceted: disapproval leads, with amusement and realization following."
+  },
+  {
+    "input": "emotions: admiration=0.82 curiosity=0.60 remorse=0.25 intensity=0.77",
+    "target": "One senses admiration most strongly, accompanied by curiosity and a hint of remorse."
+  },
+  {
+    "input": "emotions: approval=0.90 anger=0.06 intensity=0.58",
+    "target": "approval is the primary emotion, and it feels clear."
+  },
+  {
+    "input": "emotions: disgust=0.85 admiration=0.05 disappointment=0.01 intensity=0.42",
+    "target": "The emotion here is clearly disgust, felt clearly."
+  },
+  {
+    "input": "emotions: joy=0.45 intensity=0.70",
+    "target": "The overall mood is joy, with a deep presence."
+  },
+  {
+    "input": "emotions: grief=0.83 remorse=0.54 fear=0.48 intensity=0.49",
+    "target": "One senses grief most strongly, accompanied by remorse and a hint of fear."
+  },
+  {
+    "input": "emotions: curiosity=0.44 intensity=0.23",
+    "target": "The tone is unmistakably curiosity, at a soft level."
+  },
+  {
+    "input": "emotions: surprise=0.79 disappointment=0.67 amusement=0.09 intensity=0.74",
+    "target": "The emotions are layered: primarily surprise, with disappointment and hints of amusement."
+  },
+  {
+    "input": "emotions: pride=0.50 surprise=0.41 intensity=0.61",
+    "target": "One feels pride most strongly, but surprise lingers in the background."
+  },
+  {
+    "input": "emotions: remorse=0.63 joy=0.44 excitement=0.35 intensity=0.89",
+    "target": "The dominant emotion is remorse, but joy and excitement add depth."
+  },
+  {
+    "input": "emotions: love=0.49 nervousness=0.39 relief=0.11 intensity=0.55",
+    "target": "The dominant emotion is love, but nervousness and relief add depth."
+  },
+  {
+    "input": "emotions: fear=0.48 excitement=0.09 intensity=0.79",
+    "target": "This carries a deep feeling of fear."
+  },
+  {
+    "input": "emotions: sadness=0.90 surprise=0.05 intensity=0.85",
+    "target": "A overwhelming wave of sadness is present."
+  },
+  {
+    "input": "emotions: embarrassment=0.69 relief=0.30 intensity=0.69",
+    "target": "There is a blend of embarrassment and relief, with embarrassment taking the lead."
+  },
+  {
+    "input": "emotions: annoyance=0.42 fear=0.40 intensity=0.72",
+    "target": "Both fear and annoyance are present in similar measure."
+  },
+  {
+    "input": "emotions: disgust=0.90 amusement=0.81 intensity=0.71",
+    "target": "The mood is mainly disgust, with undertones of amusement."
+  },
+  {
+    "input": "emotions: excitement=0.48 love=0.31 grief=0.09 intensity=0.86",
+    "target": "One senses excitement most strongly, accompanied by love and a hint of grief."
+  },
+  {
+    "input": "emotions: embarrassment=0.62 nervousness=0.31 fear=0.27 intensity=0.72",
+    "target": "The emotions are layered: primarily embarrassment, with nervousness and hints of fear."
+  },
+  {
+    "input": "emotions: amusement=0.75 realization=0.31 intensity=0.49",
+    "target": "There is a blend of amusement and realization, with amusement taking the lead."
+  },
+  {
+    "input": "emotions: fear=0.46 optimism=0.32 intensity=0.33",
+    "target": "It feels a blend of fear and optimism, with fear slightly stronger than optimism."
+  },
+  {
+    "input": "emotions: joy=0.57 pride=0.47 intensity=0.78",
+    "target": "The feeling leans toward joy, but pride is also clearly present."
+  },
+  {
+    "input": "emotions: desire=0.84 grief=0.78 optimism=0.09 intensity=0.62",
+    "target": "A complex mix of desire, grief, and a touch of optimism."
+  },
+  {
+    "input": "emotions: anger=0.76 curiosity=0.07 annoyance=0.02 intensity=0.75",
+    "target": "This carries a deep feeling of anger."
+  },
+  {
+    "input": "emotions: gratitude=0.53 fear=0.32 embarrassment=0.21 intensity=0.75",
+    "target": "There is gratitude at the core, surrounded by fear and a whisper of embarrassment."
+  },
+  {
+    "input": "emotions: surprise=0.85 disapproval=0.29 disappointment=0.10 intensity=0.77",
+    "target": "The emotions are layered: primarily surprise, with disapproval and hints of disappointment."
+  },
+  {
+    "input": "emotions: fear=0.66 optimism=0.64 intensity=0.31",
+    "target": "The feeling is split between fear and optimism."
+  },
+  {
+    "input": "emotions: joy=0.67 grief=0.30 intensity=0.47",
+    "target": "joy is the primary emotion, accompanied by grief."
+  },
+  {
+    "input": "emotions: disgust=0.47 anger=0.44 intensity=0.62",
+    "target": "The feeling is split between disgust and anger."
+  },
+  {
+    "input": "emotions: realization=0.42 relief=0.38 intensity=0.70",
+    "target": "There is an equal mix of relief and realization."
+  },
+  {
+    "input": "emotions: approval=0.45 joy=0.42 intensity=0.34",
+    "target": "joy and approval coexist in a balanced way."
+  },
+  {
+    "input": "emotions: joy=0.57 pride=0.25 intensity=0.45",
+    "target": "joy dominates the emotional landscape, with pride adding nuance."
+  },
+  {
+    "input": "emotions: embarrassment=0.49 optimism=0.36 intensity=0.49",
+    "target": "It is a blend of embarrassment and optimism, mostly embarrassment with some optimism underneath."
+  },
+  {
+    "input": "emotions: curiosity=0.49 surprise=0.47 intensity=0.52",
+    "target": "It is hard to tell if curiosity or surprise is stronger; both are present."
+  },
+  {
+    "input": "emotions: joy=0.52 anger=0.51 intensity=0.48",
+    "target": "Both joy and anger are present in similar measure."
+  },
+  {
+    "input": "emotions: neutral=0.88 intensity=0.04",
+    "target": "No particular emotion stands out; it feels balanced and calm."
+  },
+  {
+    "input": "emotions: caring=0.74 sadness=0.70 intensity=0.52",
+    "target": "Neither sadness nor caring dominates; they are equally felt."
+  },
+  {
+    "input": "emotions: joy=0.41 realization=0.39 intensity=0.52",
+    "target": "A tension between realization and joy defines the emotional tone."
+  },
+  {
+    "input": "emotions: surprise=0.88 joy=0.08 intensity=0.76",
+    "target": "A pronounced undercurrent of surprise runs through this."
+  },
+  {
+    "input": "emotions: annoyance=0.57 relief=0.49 confusion=0.44 intensity=0.78",
+    "target": "The feeling is multifaceted: annoyance leads, with relief and confusion following."
+  },
+  {
+    "input": "emotions: joy=0.74 disappointment=0.40 intensity=0.77",
+    "target": "There is a blend of joy and disappointment, with joy taking the lead."
+  },
+  {
+    "input": "emotions: neutral=0.83 intensity=0.09",
+    "target": "Very little emotional content is present here."
+  },
+  {
+    "input": "emotions: desire=0.48 intensity=0.25",
+    "target": "This carries a quiet feeling of desire."
+  },
+  {
+    "input": "emotions: disappointment=0.52 intensity=0.39",
+    "target": "disappointment is the primary emotion, and it feels quiet."
+  },
+  {
+    "input": "emotions: pride=0.60 admiration=0.52 gratitude=0.40 intensity=0.58",
+    "target": "One senses pride most strongly, accompanied by admiration and a hint of gratitude."
+  },
+  {
+    "input": "emotions: approval=0.56 love=0.02 sadness=0.02 intensity=0.30",
+    "target": "The tone is unmistakably approval, at a moderate level."
+  },
+  {
+    "input": "emotions: fear=0.54 disappointment=0.53 intensity=0.51",
+    "target": "The feeling is split between fear and disappointment."
+  },
+  {
+    "input": "emotions: surprise=0.71 desire=0.69 intensity=0.39",
+    "target": "There is an equal mix of desire and surprise."
+  },
+  {
+    "input": "emotions: gratitude=0.43 embarrassment=0.09 intensity=0.56",
+    "target": "The emotion here is clearly gratitude, felt clearly."
+  },
+  {
+    "input": "emotions: neutral=0.81 intensity=0.05",
+    "target": "There is no strong emotion detected; the mood is calm and even."
+  },
+  {
+    "input": "emotions: optimism=0.76 relief=0.32 sadness=0.29 intensity=0.72",
+    "target": "The feeling is multifaceted: optimism leads, with relief and sadness following."
+  },
+  {
+    "input": "emotions: optimism=0.72 realization=0.50 intensity=0.48",
+    "target": "optimism is the primary emotion, accompanied by realization."
+  },
+  {
+    "input": "emotions: amusement=0.74 love=0.55 surprise=0.42 intensity=0.51",
+    "target": "The emotions are layered: primarily amusement, with love and hints of surprise."
+  },
+  {
+    "input": "emotions: neutral=0.76 intensity=0.12",
+    "target": "The tone is composed and emotionally neutral."
+  },
+  {
+    "input": "emotions: disappointment=0.56 embarrassment=0.30 excitement=0.17 intensity=0.49",
+    "target": "One senses disappointment most strongly, accompanied by embarrassment and a hint of excitement."
+  },
+  {
+    "input": "emotions: realization=0.49 intensity=0.40",
+    "target": "This carries a moderate feeling of realization."
+  },
+  {
+    "input": "emotions: embarrassment=0.57 disappointment=0.24 intensity=0.49",
+    "target": "embarrassment dominates the emotional landscape, with disappointment adding nuance."
+  },
+  {
+    "input": "emotions: desire=0.46 caring=0.24 annoyance=0.20 intensity=0.55",
+    "target": "Multiple emotions are at play: desire, caring, and annoyance, creating a complex emotional landscape."
+  },
+  {
+    "input": "emotions: realization=0.78 intensity=0.52",
+    "target": "This carries a present feeling of realization."
+  },
+  {
+    "input": "emotions: neutral=0.90 intensity=0.08",
+    "target": "Very little emotional content is present here."
+  },
+  {
+    "input": "emotions: love=0.84 intensity=0.37",
+    "target": "A gentle undercurrent of love runs through this."
+  },
+  {
+    "input": "emotions: grief=0.48 approval=0.38 joy=0.31 intensity=0.67",
+    "target": "A complex mix of grief, approval, and a touch of joy."
+  },
+  {
+    "input": "emotions: realization=0.47 grief=0.23 intensity=0.36",
+    "target": "There is a blend of realization and grief, with realization taking the lead."
+  },
+  {
+    "input": "emotions: realization=0.37 joy=0.32 intensity=0.80",
+    "target": "A tension between realization and joy defines the emotional tone."
+  },
+  {
+    "input": "emotions: surprise=0.85 annoyance=0.77 admiration=0.67 intensity=0.81",
+    "target": "It feels a blend of surprise and annoyance, blending surprise, annoyance, and traces of admiration."
+  },
+  {
+    "input": "emotions: realization=0.91 intensity=0.34",
+    "target": "The dominant feeling is realization, experienced with quiet intensity."
+  },
+  {
+    "input": "emotions: anger=0.75 caring=0.52 gratitude=0.05 intensity=0.52",
+    "target": "The emotions are layered: primarily anger, with caring and hints of gratitude."
+  },
+  {
+    "input": "emotions: confusion=0.57 grief=0.44 optimism=0.06 intensity=0.45",
+    "target": "The feeling is multifaceted: confusion leads, with grief and optimism following."
+  },
+  {
+    "input": "emotions: desire=0.75 annoyance=0.69 joy=0.16 intensity=0.77",
+    "target": "The feeling is multifaceted: desire leads, with annoyance and joy following."
+  },
+  {
+    "input": "emotions: sadness=0.83 intensity=0.32",
+    "target": "sadness is the primary emotion, and it feels quiet."
+  },
+  {
+    "input": "emotions: realization=0.71 disappointment=0.07 surprise=0.03 intensity=0.47",
+    "target": "This carries a noticeable feeling of realization."
+  },
+  {
+    "input": "emotions: realization=0.77 approval=0.65 amusement=0.24 intensity=0.87",
+    "target": "The dominant emotion is realization, but approval and amusement add depth."
+  },
+  {
+    "input": "emotions: relief=0.80 disgust=0.38 optimism=0.34 intensity=0.81",
+    "target": "Multiple emotions are at play: relief, disgust, and optimism, creating a complex emotional landscape."
+  },
+  {
+    "input": "emotions: fear=0.59 excitement=0.44 disapproval=0.07 intensity=0.54",
+    "target": "A complex mix of fear, excitement, and a touch of disapproval."
+  },
+  {
+    "input": "emotions: excitement=0.51 realization=0.34 intensity=0.58",
+    "target": "The feeling leans toward excitement, but realization is also clearly present."
+  },
+  {
+    "input": "emotions: remorse=0.74 embarrassment=0.27 relief=0.15 intensity=0.81",
+    "target": "The emotions are layered: primarily remorse, with embarrassment and hints of relief."
+  },
+  {
+    "input": "emotions: joy=0.73 fear=0.29 intensity=0.64",
+    "target": "The mood is mainly joy, with undertones of fear."
+  },
+  {
+    "input": "emotions: desire=0.90 love=0.38 intensity=0.83",
+    "target": "It is a blend of desire and love, mostly desire with some love underneath."
+  },
+  {
+    "input": "emotions: love=0.61 remorse=0.45 intensity=0.72",
+    "target": "love is the primary emotion, accompanied by remorse."
+  },
+  {
+    "input": "emotions: remorse=0.63 disgust=0.31 amusement=0.27 intensity=0.48",
+    "target": "There is remorse at the core, surrounded by disgust and a whisper of amusement."
+  },
+  {
+    "input": "emotions: annoyance=0.60 realization=0.48 intensity=0.72",
+    "target": "A mix of annoyance and realization is felt, though annoyance dominates."
+  },
+  {
+    "input": "emotions: love=0.56 relief=0.39 sadness=0.12 intensity=0.69",
+    "target": "The dominant emotion is love, but relief and sadness add depth."
+  },
+  {
+    "input": "emotions: fear=0.81 intensity=0.76",
+    "target": "The dominant feeling is fear, experienced with significant intensity."
+  },
+  {
+    "input": "emotions: grief=0.86 approval=0.47 intensity=0.31",
+    "target": "A mix of grief and approval is felt, though grief dominates."
+  },
+  {
+    "input": "emotions: nervousness=0.84 confusion=0.08 intensity=0.28",
+    "target": "nervousness is the primary emotion, and it feels gentle."
+  },
+  {
+    "input": "emotions: disgust=0.81 nervousness=0.02 intensity=0.23",
+    "target": "The dominant feeling is disgust, experienced with gentle intensity."
+  },
+  {
+    "input": "emotions: grief=0.59 disappointment=0.42 optimism=0.30 intensity=0.63",
+    "target": "It feels a blend of grief and disappointment, blending grief, disappointment, and traces of optimism."
+  },
+  {
+    "input": "emotions: anger=0.46 love=0.20 excitement=0.14 intensity=0.86",
+    "target": "A complex mix of anger, love, and a touch of excitement."
+  },
+  {
+    "input": "emotions: curiosity=0.61 annoyance=0.30 sadness=0.21 intensity=0.50",
+    "target": "One senses curiosity most strongly, accompanied by annoyance and a hint of sadness."
+  },
+  {
+    "input": "emotions: approval=0.90 realization=0.72 intensity=0.59",
+    "target": "approval is the primary emotion, accompanied by realization."
+  },
+  {
+    "input": "emotions: excitement=0.49 anger=0.22 surprise=0.12 intensity=0.89",
+    "target": "The dominant emotion is excitement, but anger and surprise add depth."
+  },
+  {
+    "input": "emotions: neutral=0.85 intensity=0.10",
+    "target": "There is no strong emotion detected; the mood is calm and even."
+  },
+  {
+    "input": "emotions: optimism=0.62 curiosity=0.39 grief=0.22 intensity=0.82",
+    "target": "Multiple emotions are at play: optimism, curiosity, and grief, creating a complex emotional landscape."
+  },
+  {
+    "input": "emotions: curiosity=0.41 excitement=0.08 intensity=0.35",
+    "target": "There is a gentle sense of curiosity."
+  },
+  {
+    "input": "emotions: amusement=0.51 joy=0.02 intensity=0.69",
+    "target": "The tone is unmistakably amusement, at a deep level."
+  },
+  {
+    "input": "emotions: excitement=0.50 embarrassment=0.30 intensity=0.64",
+    "target": "A mix of excitement and embarrassment is felt, though excitement dominates."
+  },
+  {
+    "input": "emotions: embarrassment=0.65 gratitude=0.61 intensity=0.78",
+    "target": "Neither gratitude nor embarrassment dominates; they are equally felt."
+  },
+  {
+    "input": "emotions: neutral=0.89 intensity=0.09",
+    "target": "The emotional tone is relatively neutral."
+  },
+  {
+    "input": "emotions: relief=0.66 disappointment=0.59 desire=0.07 intensity=0.51",
+    "target": "It feels a blend of relief and disappointment, blending relief, disappointment, and traces of desire."
+  },
+  {
+    "input": "emotions: admiration=0.49 intensity=0.37",
+    "target": "admiration is the primary emotion, and it feels gentle."
+  },
+  {
+    "input": "emotions: disapproval=0.49 joy=0.46 intensity=0.62",
+    "target": "Both disapproval and joy are present in similar measure."
+  },
+  {
+    "input": "emotions: annoyance=0.90 excitement=0.69 intensity=0.70",
+    "target": "annoyance dominates the emotional landscape, with excitement adding nuance."
+  },
+  {
+    "input": "emotions: amusement=0.45 fear=0.42 intensity=0.46",
+    "target": "It is hard to tell if fear or amusement is stronger; both are present."
+  },
+  {
+    "input": "emotions: relief=0.70 intensity=0.59",
+    "target": "A present wave of relief is present."
+  },
+  {
+    "input": "emotions: gratitude=0.56 joy=0.32 disappointment=0.28 intensity=0.52",
+    "target": "One senses gratitude most strongly, accompanied by joy and a hint of disappointment."
+  },
+  {
+    "input": "emotions: optimism=0.64 approval=0.27 intensity=0.73",
+    "target": "One feels optimism most strongly, but approval lingers in the background."
+  },
+  {
+    "input": "emotions: joy=0.45 excitement=0.09 anger=0.05 intensity=0.90",
+    "target": "A intense undercurrent of joy runs through this."
+  },
+  {
+    "input": "emotions: realization=0.69 relief=0.20 intensity=0.43",
+    "target": "realization is the primary emotion, accompanied by relief."
+  },
+  {
+    "input": "emotions: fear=0.48 admiration=0.36 disapproval=0.06 intensity=0.50",
+    "target": "One senses fear most strongly, accompanied by admiration and a hint of disapproval."
+  },
+  {
+    "input": "emotions: realization=0.52 love=0.39 intensity=0.67",
+    "target": "The heart of the feeling is realization, softened by a touch of love."
+  },
+  {
+    "input": "emotions: gratitude=0.59 realization=0.55 intensity=0.76",
+    "target": "It is hard to tell if gratitude or realization is stronger; both are present."
+  },
+  {
+    "input": "emotions: excitement=0.50 desire=0.02 intensity=0.77",
+    "target": "One can feel excitement quite strongly here."
+  },
+  {
+    "input": "emotions: sadness=0.70 disapproval=0.65 intensity=0.40",
+    "target": "Neither disapproval nor sadness dominates; they are equally felt."
+  },
+  {
+    "input": "emotions: confusion=0.82 disappointment=0.53 approval=0.21 intensity=0.80",
+    "target": "One senses confusion most strongly, accompanied by disappointment and a hint of approval."
+  },
+  {
+    "input": "emotions: relief=0.62 pride=0.26 intensity=0.47",
+    "target": "The feeling leans toward relief, but pride is also clearly present."
+  },
+  {
+    "input": "emotions: desire=0.60 confusion=0.56 intensity=0.30",
+    "target": "Both confusion and desire are present in similar measure."
+  },
+  {
+    "input": "emotions: excitement=0.52 intensity=0.63",
+    "target": "The tone is unmistakably excitement, at a significant level."
+  },
+  {
+    "input": "emotions: sadness=0.88 intensity=0.73",
+    "target": "This carries a strong feeling of sadness."
+  },
+  {
+    "input": "emotions: disappointment=0.77 joy=0.57 intensity=0.65",
+    "target": "It feels a blend of disappointment and joy, with disappointment slightly stronger than joy."
+  },
+  {
+    "input": "emotions: neutral=0.79 intensity=0.04",
+    "target": "Very little emotional content is present here."
+  },
+  {
+    "input": "emotions: realization=0.77 joy=0.59 nervousness=0.27 intensity=0.63",
+    "target": "The dominant emotion is realization, but joy and nervousness add depth."
+  },
+  {
+    "input": "emotions: annoyance=0.74 intensity=0.68",
+    "target": "The emotion here is clearly annoyance, felt pronouncedly."
+  },
+  {
+    "input": "emotions: amusement=0.79 surprise=0.04 intensity=0.30",
+    "target": "This carries a gentle feeling of amusement."
+  },
+  {
+    "input": "emotions: remorse=0.78 intensity=0.24",
+    "target": "One can feel remorse quite quietly here."
+  },
+  {
+    "input": "emotions: amusement=0.84 desire=0.72 embarrassment=0.22 intensity=0.75",
+    "target": "It feels a blend of amusement and desire, blending amusement, desire, and traces of embarrassment."
+  },
+  {
+    "input": "emotions: gratitude=0.69 caring=0.08 amusement=0.05 intensity=0.29",
+    "target": "gratitude is the primary emotion, and it feels soft."
+  },
+  {
+    "input": "emotions: caring=0.51 grief=0.37 love=0.30 intensity=0.50",
+    "target": "The feeling is multifaceted: caring leads, with grief and love following."
+  },
+  {
+    "input": "emotions: nervousness=0.68 admiration=0.42 excitement=0.24 intensity=0.73",
+    "target": "One senses nervousness most strongly, accompanied by admiration and a hint of excitement."
+  },
+  {
+    "input": "emotions: relief=0.74 disgust=0.41 caring=0.32 intensity=0.89",
+    "target": "The emotions are layered: primarily relief, with disgust and hints of caring."
+  },
+  {
+    "input": "emotions: surprise=0.79 excitement=0.57 sadness=0.25 intensity=0.58",
+    "target": "One senses surprise most strongly, accompanied by excitement and a hint of sadness."
+  },
+  {
+    "input": "emotions: grief=0.67 admiration=0.35 surprise=0.31 intensity=0.53",
+    "target": "One senses grief most strongly, accompanied by admiration and a hint of surprise."
+  },
+  {
+    "input": "emotions: surprise=0.61 disappointment=0.48 intensity=0.73",
+    "target": "A mix of surprise and disappointment is felt, though surprise dominates."
+  },
+  {
+    "input": "emotions: fear=0.53 desire=0.30 intensity=0.52",
+    "target": "There is a blend of fear and desire, with fear taking the lead."
+  },
+  {
+    "input": "emotions: joy=0.52 intensity=0.81",
+    "target": "A overwhelming wave of joy is present."
+  },
+  {
+    "input": "emotions: optimism=0.73 admiration=0.09 intensity=0.85",
+    "target": "The tone is unmistakably optimism, at a powerful level."
+  },
+  {
+    "input": "emotions: annoyance=0.53 disgust=0.51 intensity=0.56",
+    "target": "It is hard to tell if disgust or annoyance is stronger; both are present."
+  },
+  {
+    "input": "emotions: desire=0.89 realization=0.21 intensity=0.34",
+    "target": "It feels a blend of desire and realization, with desire slightly stronger than realization."
+  },
+  {
+    "input": "emotions: surprise=0.42 curiosity=0.02 intensity=0.39",
+    "target": "One can feel surprise quite softly here."
+  },
+  {
+    "input": "emotions: disappointment=0.93 intensity=0.49",
+    "target": "A present wave of disappointment is present."
+  },
+  {
+    "input": "emotions: gratitude=0.72 disappointment=0.36 admiration=0.13 intensity=0.74",
+    "target": "There is gratitude at the core, surrounded by disappointment and a whisper of admiration."
+  },
+  {
+    "input": "emotions: disappointment=0.82 relief=0.57 intensity=0.67",
+    "target": "It is a blend of disappointment and relief, mostly disappointment with some relief underneath."
+  },
+  {
+    "input": "emotions: anger=0.51 desire=0.45 intensity=0.80",
+    "target": "There is a blend of anger and desire, with anger taking the lead."
+  },
+  {
+    "input": "emotions: optimism=0.89 nervousness=0.49 intensity=0.70",
+    "target": "A mix of optimism and nervousness is felt, though optimism dominates."
+  },
+  {
+    "input": "emotions: surprise=0.67 optimism=0.46 intensity=0.79",
+    "target": "There is a blend of surprise and optimism, with surprise taking the lead."
+  },
+  {
+    "input": "emotions: desire=0.68 curiosity=0.45 realization=0.43 intensity=0.71",
+    "target": "One senses desire most strongly, accompanied by curiosity and a hint of realization."
+  },
+  {
+    "input": "emotions: approval=0.59 admiration=0.43 realization=0.14 intensity=0.42",
+    "target": "One senses approval most strongly, accompanied by admiration and a hint of realization."
+  },
+  {
+    "input": "emotions: neutral=0.73 intensity=0.07",
+    "target": "The feeling is flat and neutral, without much emotional charge."
+  },
+  {
+    "input": "emotions: love=0.73 disapproval=0.37 embarrassment=0.11 intensity=0.64",
+    "target": "The dominant emotion is love, but disapproval and embarrassment add depth."
+  },
+  {
+    "input": "emotions: neutral=0.83 intensity=0.07",
+    "target": "The feeling is flat and neutral, without much emotional charge."
+  },
+  {
+    "input": "emotions: excitement=0.55 nervousness=0.10 intensity=0.44",
+    "target": "There is a noticeable sense of excitement."
+  },
+  {
+    "input": "emotions: relief=0.85 admiration=0.42 intensity=0.64",
+    "target": "There is a blend of relief and admiration, with relief taking the lead."
+  },
+  {
+    "input": "emotions: confusion=0.82 excitement=0.57 pride=0.15 intensity=0.57",
+    "target": "The feeling is multifaceted: confusion leads, with excitement and pride following."
+  },
+  {
+    "input": "emotions: neutral=0.87 intensity=0.13",
+    "target": "The tone is composed and emotionally neutral."
+  },
+  {
+    "input": "emotions: fear=0.50 remorse=0.21 admiration=0.18 intensity=0.88",
+    "target": "Multiple emotions are at play: fear, remorse, and admiration, creating a complex emotional landscape."
+  },
+  {
+    "input": "emotions: annoyance=0.70 grief=0.54 intensity=0.40",
+    "target": "A mix of annoyance and grief is felt, though annoyance dominates."
+  },
+  {
+    "input": "emotions: amusement=0.53 desire=0.38 love=0.07 intensity=0.65",
+    "target": "The dominant emotion is amusement, but desire and love add depth."
+  },
+  {
+    "input": "emotions: disapproval=0.46 relief=0.30 intensity=0.67",
+    "target": "The mood is mainly disapproval, with undertones of relief."
+  },
+  {
+    "input": "emotions: fear=0.91 intensity=0.69",
+    "target": "This carries a strong feeling of fear."
+  },
+  {
+    "input": "emotions: disgust=0.62 realization=0.05 remorse=0.04 intensity=0.83",
+    "target": "A very strong undercurrent of disgust runs through this."
+  },
+  {
+    "input": "emotions: admiration=0.65 fear=0.43 excitement=0.24 intensity=0.85",
+    "target": "It feels a blend of admiration and fear, blending admiration, fear, and traces of excitement."
+  },
+  {
+    "input": "emotions: admiration=0.41 relief=0.07 intensity=0.57",
+    "target": "There is a present sense of admiration."
+  },
+  {
+    "input": "emotions: relief=0.92 intensity=0.44",
+    "target": "The dominant feeling is relief, experienced with present intensity."
+  },
+  {
+    "input": "emotions: disappointment=0.87 realization=0.38 intensity=0.37",
+    "target": "The feeling leans toward disappointment, but realization is also clearly present."
+  },
+  {
+    "input": "emotions: embarrassment=0.66 sadness=0.07 intensity=0.32",
+    "target": "The dominant feeling is embarrassment, experienced with moderate intensity."
+  },
+  {
+    "input": "emotions: disgust=0.55 realization=0.36 intensity=0.66",
+    "target": "The mood is mainly disgust, with undertones of realization."
+  },
+  {
+    "input": "emotions: confusion=0.80 surprise=0.70 pride=0.60 intensity=0.76",
+    "target": "The dominant emotion is confusion, but surprise and pride add depth."
+  },
+  {
+    "input": "emotions: disgust=0.69 desire=0.49 confusion=0.20 intensity=0.82",
+    "target": "One senses disgust most strongly, accompanied by desire and a hint of confusion."
+  },
+  {
+    "input": "emotions: embarrassment=0.51 admiration=0.47 intensity=0.68",
+    "target": "The mood is a delicate balance of embarrassment and admiration."
+  },
+  {
+    "input": "emotions: confusion=0.58 disgust=0.02 intensity=0.34",
+    "target": "One can feel confusion quite softly here."
+  },
+  {
+    "input": "emotions: disgust=0.57 caring=0.33 love=0.26 intensity=0.82",
+    "target": "Multiple emotions are at play: disgust, caring, and love, creating a complex emotional landscape."
+  },
+  {
+    "input": "emotions: neutral=0.86 intensity=0.08",
+    "target": "There is no strong emotion detected; the mood is calm and even."
+  },
+  {
+    "input": "emotions: optimism=0.49 joy=0.35 admiration=0.06 intensity=0.46",
+    "target": "The dominant emotion is optimism, but joy and admiration add depth."
+  },
+  {
+    "input": "emotions: confusion=0.87 intensity=0.33",
+    "target": "The emotion here is clearly confusion, felt softly."
+  },
+  {
+    "input": "emotions: joy=0.53 desire=0.38 remorse=0.27 intensity=0.54",
+    "target": "It feels a blend of joy and desire, blending joy, desire, and traces of remorse."
+  },
+  {
+    "input": "emotions: grief=0.83 joy=0.72 intensity=0.44",
+    "target": "The heart of the feeling is grief, softened by a touch of joy."
+  },
+  {
+    "input": "emotions: amusement=0.59 desire=0.42 anger=0.12 intensity=0.80",
+    "target": "Multiple emotions are at play: amusement, desire, and anger, creating a complex emotional landscape."
+  },
+  {
+    "input": "emotions: fear=0.44 optimism=0.01 intensity=0.29",
+    "target": "A soft undercurrent of fear runs through this."
+  },
+  {
+    "input": "emotions: sadness=0.53 pride=0.23 caring=0.11 intensity=0.73",
+    "target": "A complex mix of sadness, pride, and a touch of caring."
+  },
+  {
+    "input": "emotions: relief=0.87 joy=0.06 curiosity=0.02 intensity=0.58",
+    "target": "The emotion here is clearly relief, felt noticeablely."
+  },
+  {
+    "input": "emotions: surprise=0.69 disappointment=0.04 intensity=0.52",
+    "target": "The emotion here is clearly surprise, felt moderately."
+  },
+  {
+    "input": "emotions: neutral=0.86 intensity=0.03",
+    "target": "The emotional tone is relatively neutral."
+  },
+  {
+    "input": "emotions: annoyance=0.46 approval=0.25 intensity=0.35",
+    "target": "The mood is mainly annoyance, with undertones of approval."
+  },
+  {
+    "input": "emotions: confusion=0.68 approval=0.42 realization=0.24 intensity=0.82",
+    "target": "One senses confusion most strongly, accompanied by approval and a hint of realization."
+  },
+  {
+    "input": "emotions: fear=0.81 relief=0.57 amusement=0.35 intensity=0.66",
+    "target": "The emotions are layered: primarily fear, with relief and hints of amusement."
+  },
+  {
+    "input": "emotions: disgust=0.73 realization=0.02 intensity=0.66",
+    "target": "One can feel disgust quite pronouncedly here."
+  },
+  {
+    "input": "emotions: embarrassment=0.62 pride=0.09 admiration=0.05 intensity=0.72",
+    "target": "embarrassment is the primary emotion, and it feels pronounced."
+  },
+  {
+    "input": "emotions: joy=0.80 embarrassment=0.32 relief=0.25 intensity=0.50",
+    "target": "It feels a blend of joy and embarrassment, blending joy, embarrassment, and traces of relief."
+  },
+  {
+    "input": "emotions: approval=0.70 amusement=0.61 intensity=0.41",
+    "target": "The mood is mainly approval, with undertones of amusement."
+  },
+  {
+    "input": "emotions: nervousness=0.68 embarrassment=0.53 pride=0.27 intensity=0.62",
+    "target": "One senses nervousness most strongly, accompanied by embarrassment and a hint of pride."
+  },
+  {
+    "input": "emotions: nervousness=0.69 approval=0.21 curiosity=0.10 intensity=0.47",
+    "target": "Multiple emotions are at play: nervousness, approval, and curiosity, creating a complex emotional landscape."
+  },
+  {
+    "input": "emotions: confusion=0.74 disapproval=0.45 annoyance=0.34 intensity=0.79",
+    "target": "Multiple emotions are at play: confusion, disapproval, and annoyance, creating a complex emotional landscape."
+  },
+  {
+    "input": "emotions: curiosity=0.64 excitement=0.27 surprise=0.20 intensity=0.77",
+    "target": "It feels a blend of curiosity and excitement, blending curiosity, excitement, and traces of surprise."
+  },
+  {
+    "input": "emotions: nervousness=0.86 intensity=0.84",
+    "target": "A intense wave of nervousness is present."
+  },
+  {
+    "input": "emotions: anger=0.48 confusion=0.43 surprise=0.28 intensity=0.86",
+    "target": "It feels a blend of anger and confusion, blending anger, confusion, and traces of surprise."
+  },
+  {
+    "input": "emotions: realization=0.78 sadness=0.45 confusion=0.09 intensity=0.87",
+    "target": "A complex mix of realization, sadness, and a touch of confusion."
+  },
+  {
+    "input": "emotions: grief=0.80 surprise=0.03 intensity=0.31",
+    "target": "The emotion here is clearly grief, felt gentlely."
+  },
+  {
+    "input": "emotions: embarrassment=0.70 love=0.69 intensity=0.50",
+    "target": "Both love and embarrassment are present in similar measure."
+  },
+  {
+    "input": "emotions: caring=0.78 love=0.05 realization=0.01 intensity=0.30",
+    "target": "A quiet wave of caring is present."
+  },
+  {
+    "input": "emotions: approval=0.74 curiosity=0.26 intensity=0.50",
+    "target": "approval is the primary emotion, accompanied by curiosity."
+  },
+  {
+    "input": "emotions: disappointment=0.62 confusion=0.30 intensity=0.43",
+    "target": "One feels disappointment most strongly, but confusion lingers in the background."
+  },
+  {
+    "input": "emotions: sadness=0.48 intensity=0.63",
+    "target": "A deep undercurrent of sadness runs through this."
+  },
+  {
+    "input": "emotions: admiration=0.56 joy=0.45 nervousness=0.09 intensity=0.73",
+    "target": "One senses admiration most strongly, accompanied by joy and a hint of nervousness."
+  },
+  {
+    "input": "emotions: disgust=0.61 amusement=0.24 optimism=0.19 intensity=0.77",
+    "target": "The feeling is multifaceted: disgust leads, with amusement and optimism following."
+  },
+  {
+    "input": "emotions: disgust=0.72 disapproval=0.66 love=0.52 intensity=0.82",
+    "target": "There is disgust at the core, surrounded by disapproval and a whisper of love."
+  },
+  {
+    "input": "emotions: desire=0.68 sadness=0.62 caring=0.19 intensity=0.82",
+    "target": "The dominant emotion is desire, but sadness and caring add depth."
+  },
+  {
+    "input": "emotions: relief=0.66 approval=0.66 intensity=0.50",
+    "target": "Both relief and approval are present in similar measure."
+  },
+  {
+    "input": "emotions: neutral=0.93 intensity=0.06",
+    "target": "The tone is composed and emotionally neutral."
+  },
+  {
+    "input": "emotions: sadness=0.85 intensity=0.75",
+    "target": "A significant undercurrent of sadness runs through this."
+  },
+  {
+    "input": "emotions: nervousness=0.85 disgust=0.71 love=0.26 intensity=0.69",
+    "target": "Multiple emotions are at play: nervousness, disgust, and love, creating a complex emotional landscape."
+  },
+  {
+    "input": "emotions: embarrassment=0.80 surprise=0.02 intensity=0.80",
+    "target": "One can feel embarrassment quite intensely here."
+  },
+  {
+    "input": "emotions: neutral=0.84 intensity=0.06",
+    "target": "The emotional tone is relatively neutral."
+  },
+  {
+    "input": "emotions: joy=0.78 pride=0.38 intensity=0.74",
+    "target": "The feeling leans toward joy, but pride is also clearly present."
+  },
+  {
+    "input": "emotions: disapproval=0.62 curiosity=0.25 remorse=0.22 intensity=0.70",
+    "target": "A complex mix of disapproval, curiosity, and a touch of remorse."
+  },
+  {
+    "input": "emotions: approval=0.57 pride=0.39 anger=0.12 intensity=0.73",
+    "target": "A complex mix of approval, pride, and a touch of anger."
+  },
+  {
+    "input": "emotions: surprise=0.79 confusion=0.44 relief=0.35 intensity=0.79",
+    "target": "It feels a blend of surprise and confusion, blending surprise, confusion, and traces of relief."
+  },
+  {
+    "input": "emotions: sadness=0.46 disapproval=0.38 intensity=0.68",
+    "target": "sadness is the primary emotion, accompanied by disapproval."
+  },
+  {
+    "input": "emotions: remorse=0.43 amusement=0.40 intensity=0.79",
+    "target": "The mood is a delicate balance of amusement and remorse."
+  },
+  {
+    "input": "emotions: love=0.73 pride=0.30 fear=0.23 intensity=0.77",
+    "target": "A complex mix of love, pride, and a touch of fear."
+  },
+  {
+    "input": "emotions: nervousness=0.91 realization=0.07 embarrassment=0.01 intensity=0.44",
+    "target": "This carries a present feeling of nervousness."
+  },
+  {
+    "input": "emotions: relief=0.60 pride=0.34 intensity=0.49",
+    "target": "One feels relief most strongly, but pride lingers in the background."
+  },
+  {
+    "input": "emotions: nervousness=0.75 love=0.06 intensity=0.65",
+    "target": "The tone is unmistakably nervousness, at a significant level."
+  },
+  {
+    "input": "emotions: love=0.70 disapproval=0.68 intensity=0.33",
+    "target": "A tension between love and disapproval defines the emotional tone."
+  },
+  {
+    "input": "emotions: caring=0.92 sadness=0.09 intensity=0.58",
+    "target": "The dominant feeling is caring, experienced with moderate intensity."
+  },
+  {
+    "input": "emotions: neutral=0.78 intensity=0.07",
+    "target": "Very little emotional content is present here."
+  },
+  {
+    "input": "emotions: desire=0.64 disapproval=0.29 intensity=0.60",
+    "target": "The heart of the feeling is desire, softened by a touch of disapproval."
+  },
+  {
+    "input": "emotions: disappointment=0.74 pride=0.26 love=0.22 intensity=0.84",
+    "target": "There is disappointment at the core, surrounded by pride and a whisper of love."
+  },
+  {
+    "input": "emotions: grief=0.36 annoyance=0.32 intensity=0.58",
+    "target": "A tension between grief and annoyance defines the emotional tone."
+  },
+  {
+    "input": "emotions: confusion=0.51 gratitude=0.22 intensity=0.38",
+    "target": "A mix of confusion and gratitude is felt, though confusion dominates."
+  },
+  {
+    "input": "emotions: neutral=0.77 intensity=0.15",
+    "target": "The tone is composed and emotionally neutral."
+  },
+  {
+    "input": "emotions: disgust=0.43 joy=0.05 intensity=0.22",
+    "target": "There is a quiet sense of disgust."
+  },
+  {
+    "input": "emotions: annoyance=0.53 intensity=0.70",
+    "target": "One can feel annoyance quite pronouncedly here."
+  },
+  {
+    "input": "emotions: love=0.64 confusion=0.36 approval=0.07 intensity=0.55",
+    "target": "One senses love most strongly, accompanied by confusion and a hint of approval."
+  },
+  {
+    "input": "emotions: sadness=0.55 realization=0.52 intensity=0.66",
+    "target": "realization and sadness coexist in a balanced way."
+  },
+  {
+    "input": "emotions: pride=0.75 curiosity=0.21 caring=0.18 intensity=0.88",
+    "target": "Multiple emotions are at play: pride, curiosity, and caring, creating a complex emotional landscape."
+  },
+  {
+    "input": "emotions: admiration=0.88 joy=0.78 intensity=0.82",
+    "target": "admiration is the primary emotion, accompanied by joy."
+  },
+  {
+    "input": "emotions: joy=0.60 admiration=0.27 intensity=0.38",
+    "target": "joy dominates the emotional landscape, with admiration adding nuance."
+  },
+  {
+    "input": "emotions: optimism=0.63 caring=0.50 anger=0.44 intensity=0.70",
+    "target": "The dominant emotion is optimism, but caring and anger add depth."
+  },
+  {
+    "input": "emotions: disapproval=0.63 remorse=0.05 intensity=0.31",
+    "target": "The overall mood is disapproval, with a soft presence."
+  },
+  {
+    "input": "emotions: love=0.80 pride=0.62 admiration=0.25 intensity=0.42",
+    "target": "The feeling is multifaceted: love leads, with pride and admiration following."
+  },
+  {
+    "input": "emotions: surprise=0.85 disappointment=0.47 grief=0.33 intensity=0.40",
+    "target": "One senses surprise most strongly, accompanied by disappointment and a hint of grief."
+  },
+  {
+    "input": "emotions: admiration=0.57 confusion=0.07 gratitude=0.05 intensity=0.23",
+    "target": "The tone is unmistakably admiration, at a quiet level."
+  },
+  {
+    "input": "emotions: relief=0.91 optimism=0.03 anger=0.02 intensity=0.62",
+    "target": "The emotion here is clearly relief, felt strongly."
+  },
+  {
+    "input": "emotions: gratitude=0.87 intensity=0.21",
+    "target": "The overall mood is gratitude, with a soft presence."
+  },
+  {
+    "input": "emotions: gratitude=0.71 excitement=0.07 approval=0.03 intensity=0.28",
+    "target": "The overall mood is gratitude, with a soft presence."
+  },
+  {
+    "input": "emotions: love=0.52 curiosity=0.36 intensity=0.45",
+    "target": "It feels a blend of love and curiosity, with love slightly stronger than curiosity."
+  },
+  {
+    "input": "emotions: sadness=0.52 realization=0.09 grief=0.03 intensity=0.84",
+    "target": "The dominant feeling is sadness, experienced with intense intensity."
+  },
+  {
+    "input": "emotions: disapproval=0.61 nervousness=0.51 intensity=0.82",
+    "target": "One feels disapproval most strongly, but nervousness lingers in the background."
+  },
+  {
+    "input": "emotions: caring=0.46 confusion=0.40 intensity=0.61",
+    "target": "There is a blend of caring and confusion, with caring taking the lead."
+  },
+  {
+    "input": "emotions: sadness=0.68 surprise=0.55 realization=0.26 intensity=0.52",
+    "target": "The feeling is multifaceted: sadness leads, with surprise and realization following."
+  },
+  {
+    "input": "emotions: realization=0.51 anger=0.08 sadness=0.03 intensity=0.46",
+    "target": "The overall mood is realization, with a present presence."
+  },
+  {
+    "input": "emotions: pride=0.75 gratitude=0.38 realization=0.33 intensity=0.69",
+    "target": "Multiple emotions are at play: pride, gratitude, and realization, creating a complex emotional landscape."
+  },
+  {
+    "input": "emotions: desire=0.59 realization=0.33 intensity=0.35",
+    "target": "It feels a blend of desire and realization, with desire slightly stronger than realization."
+  },
+  {
+    "input": "emotions: surprise=0.56 admiration=0.41 optimism=0.24 intensity=0.58",
+    "target": "There is surprise at the core, surrounded by admiration and a whisper of optimism."
+  },
+  {
+    "input": "emotions: sadness=0.71 annoyance=0.48 intensity=0.69",
+    "target": "The feeling leans toward sadness, but annoyance is also clearly present."
+  },
+  {
+    "input": "emotions: caring=0.63 desire=0.59 intensity=0.53",
+    "target": "Neither caring nor desire dominates; they are equally felt."
+  },
+  {
+    "input": "emotions: excitement=0.63 surprise=0.37 curiosity=0.18 intensity=0.54",
+    "target": "One senses excitement most strongly, accompanied by surprise and a hint of curiosity."
+  },
+  {
+    "input": "emotions: caring=0.68 admiration=0.51 intensity=0.70",
+    "target": "The mood is mainly caring, with undertones of admiration."
+  },
+  {
+    "input": "emotions: optimism=0.84 approval=0.20 intensity=0.66",
+    "target": "A mix of optimism and approval is felt, though optimism dominates."
+  },
+  {
+    "input": "emotions: grief=0.65 confusion=0.54 admiration=0.52 intensity=0.82",
+    "target": "It feels a blend of grief and confusion, blending grief, confusion, and traces of admiration."
+  },
+  {
+    "input": "emotions: embarrassment=0.68 love=0.29 admiration=0.08 intensity=0.43",
+    "target": "One senses embarrassment most strongly, accompanied by love and a hint of admiration."
+  },
+  {
+    "input": "emotions: realization=0.88 admiration=0.38 intensity=0.70",
+    "target": "There is a blend of realization and admiration, with realization taking the lead."
+  },
+  {
+    "input": "emotions: nervousness=0.70 intensity=0.77",
+    "target": "The tone is unmistakably nervousness, at a strong level."
+  },
+  {
+    "input": "emotions: surprise=0.81 gratitude=0.55 grief=0.26 intensity=0.56",
+    "target": "The emotions are layered: primarily surprise, with gratitude and hints of grief."
+  },
+  {
+    "input": "emotions: disapproval=0.53 amusement=0.48 intensity=0.40",
+    "target": "It is hard to tell if amusement or disapproval is stronger; both are present."
+  },
+  {
+    "input": "emotions: optimism=0.81 approval=0.68 curiosity=0.27 intensity=0.51",
+    "target": "Multiple emotions are at play: optimism, approval, and curiosity, creating a complex emotional landscape."
+  },
+  {
+    "input": "emotions: surprise=0.81 intensity=0.30",
+    "target": "The dominant feeling is surprise, experienced with moderate intensity."
+  },
+  {
+    "input": "emotions: confusion=0.49 admiration=0.38 anger=0.30 intensity=0.73",
+    "target": "The emotions are layered: primarily confusion, with admiration and hints of anger."
+  },
+  {
+    "input": "emotions: nervousness=0.59 pride=0.26 sadness=0.15 intensity=0.51",
+    "target": "The dominant emotion is nervousness, but pride and sadness add depth."
+  },
+  {
+    "input": "emotions: optimism=0.72 grief=0.26 intensity=0.45",
+    "target": "It feels a blend of optimism and grief, with optimism slightly stronger than grief."
+  },
+  {
+    "input": "emotions: desire=0.86 grief=0.10 disgust=0.05 intensity=0.33",
+    "target": "One can feel desire quite softly here."
+  },
+  {
+    "input": "emotions: relief=0.94 joy=0.10 disappointment=0.02 intensity=0.62",
+    "target": "The emotion here is clearly relief, felt significantly."
+  },
+  {
+    "input": "emotions: annoyance=0.55 desire=0.28 intensity=0.75",
+    "target": "It feels a blend of annoyance and desire, with annoyance slightly stronger than desire."
+  },
+  {
+    "input": "emotions: gratitude=0.86 intensity=0.43",
+    "target": "The emotion here is clearly gratitude, felt moderately."
+  },
+  {
+    "input": "emotions: caring=0.88 nervousness=0.34 intensity=0.36",
+    "target": "It is a blend of caring and nervousness, mostly caring with some nervousness underneath."
+  },
+  {
+    "input": "emotions: neutral=0.79 intensity=0.05",
+    "target": "The emotional tone is relatively neutral."
+  },
+  {
+    "input": "emotions: disgust=0.35 admiration=0.34 intensity=0.48",
+    "target": "A tension between disgust and admiration defines the emotional tone."
+  },
+  {
+    "input": "emotions: relief=0.47 annoyance=0.29 intensity=0.42",
+    "target": "It feels a blend of relief and annoyance, with relief slightly stronger than annoyance."
+  },
+  {
+    "input": "emotions: excitement=0.89 gratitude=0.40 intensity=0.39",
+    "target": "excitement dominates the emotional landscape, with gratitude adding nuance."
+  },
+  {
+    "input": "emotions: anger=0.38 curiosity=0.36 intensity=0.46",
+    "target": "Neither curiosity nor anger dominates; they are equally felt."
+  },
+  {
+    "input": "emotions: disappointment=0.68 desire=0.29 amusement=0.08 intensity=0.79",
+    "target": "The feeling is multifaceted: disappointment leads, with desire and amusement following."
+  },
+  {
+    "input": "emotions: excitement=0.50 disappointment=0.22 desire=0.13 intensity=0.62",
+    "target": "The dominant emotion is excitement, but disappointment and desire add depth."
+  },
+  {
+    "input": "emotions: disgust=0.48 curiosity=0.36 intensity=0.33",
+    "target": "It feels a blend of disgust and curiosity, with disgust slightly stronger than curiosity."
+  },
+  {
+    "input": "emotions: grief=0.69 intensity=0.21",
+    "target": "There is a quiet sense of grief."
+  },
+  {
+    "input": "emotions: caring=0.72 excitement=0.23 intensity=0.67",
+    "target": "caring is the primary emotion, accompanied by excitement."
+  },
+  {
+    "input": "emotions: joy=0.55 desire=0.43 annoyance=0.24 intensity=0.72",
+    "target": "A complex mix of joy, desire, and a touch of annoyance."
+  },
+  {
+    "input": "emotions: admiration=0.84 intensity=0.25",
+    "target": "A quiet wave of admiration is present."
+  },
+  {
+    "input": "emotions: sadness=0.42 relief=0.40 intensity=0.48",
+    "target": "relief and sadness coexist in a balanced way."
+  },
+  {
+    "input": "emotions: disappointment=0.66 remorse=0.07 intensity=0.82",
+    "target": "There is a overwhelming sense of disappointment."
+  },
+  {
+    "input": "emotions: embarrassment=0.60 disappointment=0.44 intensity=0.69",
+    "target": "It is a blend of embarrassment and disappointment, mostly embarrassment with some disappointment underneath."
+  },
+  {
+    "input": "emotions: anger=0.50 admiration=0.37 gratitude=0.13 intensity=0.49",
+    "target": "One senses anger most strongly, accompanied by admiration and a hint of gratitude."
+  },
+  {
+    "input": "emotions: confusion=0.64 sadness=0.09 intensity=0.80",
+    "target": "A very strong undercurrent of confusion runs through this."
+  },
+  {
+    "input": "emotions: neutral=0.92 intensity=0.03",
+    "target": "There is no strong emotion detected; the mood is calm and even."
+  },
+  {
+    "input": "emotions: disappointment=0.92 intensity=0.68",
+    "target": "The dominant feeling is disappointment, experienced with deep intensity."
+  },
+  {
+    "input": "emotions: pride=0.66 excitement=0.65 intensity=0.40",
+    "target": "Neither pride nor excitement dominates; they are equally felt."
+  },
+  {
+    "input": "emotions: confusion=0.40 disappointment=0.36 intensity=0.49",
+    "target": "A tension between confusion and disappointment defines the emotional tone."
+  },
+  {
+    "input": "emotions: embarrassment=0.76 joy=0.07 disappointment=0.07 intensity=0.44",
+    "target": "A present undercurrent of embarrassment runs through this."
+  },
+  {
+    "input": "emotions: neutral=0.79 intensity=0.12",
+    "target": "Very little emotional content is present here."
+  },
+  {
+    "input": "emotions: gratitude=0.52 anger=0.40 intensity=0.76",
+    "target": "The feeling leans toward gratitude, but anger is also clearly present."
+  },
+  {
+    "input": "emotions: surprise=0.74 approval=0.26 disgust=0.13 intensity=0.56",
+    "target": "The dominant emotion is surprise, but approval and disgust add depth."
+  },
+  {
+    "input": "emotions: surprise=0.52 intensity=0.36",
+    "target": "This carries a gentle feeling of surprise."
+  },
+  {
+    "input": "emotions: desire=0.74 remorse=0.67 fear=0.17 intensity=0.40",
+    "target": "A complex mix of desire, remorse, and a touch of fear."
+  },
+  {
+    "input": "emotions: gratitude=0.52 intensity=0.40",
+    "target": "The overall mood is gratitude, with a present presence."
+  },
+  {
+    "input": "emotions: surprise=0.75 excitement=0.31 intensity=0.80",
+    "target": "It is a blend of surprise and excitement, mostly surprise with some excitement underneath."
+  },
+  {
+    "input": "emotions: embarrassment=0.83 desire=0.71 remorse=0.33 intensity=0.42",
+    "target": "It feels a blend of embarrassment and desire, blending embarrassment, desire, and traces of remorse."
+  },
+  {
+    "input": "emotions: admiration=0.53 fear=0.03 intensity=0.26",
+    "target": "One can feel admiration quite moderately here."
+  },
+  {
+    "input": "emotions: caring=0.87 realization=0.65 intensity=0.40",
+    "target": "One feels caring most strongly, but realization lingers in the background."
+  },
+  {
+    "input": "emotions: pride=0.76 optimism=0.46 curiosity=0.07 intensity=0.58",
+    "target": "It feels a blend of pride and optimism, blending pride, optimism, and traces of curiosity."
+  },
+  {
+    "input": "emotions: realization=0.46 admiration=0.04 remorse=0.03 intensity=0.73",
+    "target": "A strong wave of realization is present."
+  },
+  {
+    "input": "emotions: excitement=0.79 fear=0.38 intensity=0.75",
+    "target": "The mood is mainly excitement, with undertones of fear."
+  },
+  {
+    "input": "emotions: admiration=0.56 curiosity=0.31 excitement=0.26 intensity=0.88",
+    "target": "There is admiration at the core, surrounded by curiosity and a whisper of excitement."
+  },
+  {
+    "input": "emotions: embarrassment=0.65 sadness=0.46 annoyance=0.19 intensity=0.73",
+    "target": "It feels a blend of embarrassment and sadness, blending embarrassment, sadness, and traces of annoyance."
+  },
+  {
+    "input": "emotions: remorse=0.69 excitement=0.43 intensity=0.59",
+    "target": "It feels a blend of remorse and excitement, with remorse slightly stronger than excitement."
+  },
+  {
+    "input": "emotions: sadness=0.53 amusement=0.38 intensity=0.69",
+    "target": "sadness dominates the emotional landscape, with amusement adding nuance."
+  },
+  {
+    "input": "emotions: disapproval=0.66 joy=0.45 intensity=0.52",
+    "target": "One feels disapproval most strongly, but joy lingers in the background."
+  },
+  {
+    "input": "emotions: neutral=0.94 intensity=0.14",
+    "target": "Very little emotional content is present here."
+  },
+  {
+    "input": "emotions: admiration=0.54 disappointment=0.24 caring=0.10 intensity=0.41",
+    "target": "It feels a blend of admiration and disappointment, blending admiration, disappointment, and traces of caring."
+  },
+  {
+    "input": "emotions: neutral=0.92 intensity=0.12",
+    "target": "The feeling is flat and neutral, without much emotional charge."
+  },
+  {
+    "input": "emotions: nervousness=0.57 confusion=0.42 relief=0.35 intensity=0.88",
+    "target": "It feels a blend of nervousness and confusion, blending nervousness, confusion, and traces of relief."
+  },
+  {
+    "input": "emotions: nervousness=0.84 disgust=0.54 curiosity=0.36 intensity=0.82",
+    "target": "The dominant emotion is nervousness, but disgust and curiosity add depth."
+  },
+  {
+    "input": "emotions: optimism=0.73 joy=0.46 annoyance=0.17 intensity=0.75",
+    "target": "The dominant emotion is optimism, but joy and annoyance add depth."
+  },
+  {
+    "input": "emotions: disapproval=0.69 disgust=0.55 optimism=0.25 intensity=0.49",
+    "target": "The feeling is multifaceted: disapproval leads, with disgust and optimism following."
+  },
+  {
+    "input": "emotions: neutral=0.72 intensity=0.11",
+    "target": "Very little emotional content is present here."
+  },
+  {
+    "input": "emotions: pride=0.77 sadness=0.33 remorse=0.10 intensity=0.51",
+    "target": "There is pride at the core, surrounded by sadness and a whisper of remorse."
+  },
+  {
+    "input": "emotions: caring=0.46 fear=0.29 disapproval=0.12 intensity=0.53",
+    "target": "It feels a blend of caring and fear, blending caring, fear, and traces of disapproval."
+  },
+  {
+    "input": "emotions: admiration=0.69 pride=0.68 intensity=0.61",
+    "target": "A tension between admiration and pride defines the emotional tone."
+  },
+  {
+    "input": "emotions: embarrassment=0.58 amusement=0.06 intensity=0.67",
+    "target": "There is a significant sense of embarrassment."
+  },
+  {
+    "input": "emotions: remorse=0.67 joy=0.64 intensity=0.45",
+    "target": "It is hard to tell if joy or remorse is stronger; both are present."
+  },
+  {
+    "input": "emotions: disapproval=0.51 anger=0.44 intensity=0.40",
+    "target": "The mood is mainly disapproval, with undertones of anger."
+  },
+  {
+    "input": "emotions: gratitude=0.51 relief=0.45 realization=0.31 intensity=0.55",
+    "target": "Multiple emotions are at play: gratitude, relief, and realization, creating a complex emotional landscape."
+  },
+  {
+    "input": "emotions: neutral=0.74 intensity=0.10",
+    "target": "The emotional tone is relatively neutral."
+  },
+  {
+    "input": "emotions: gratitude=0.93 optimism=0.09 realization=0.01 intensity=0.51",
+    "target": "The tone is unmistakably gratitude, at a moderate level."
+  },
+  {
+    "input": "emotions: disapproval=0.46 embarrassment=0.44 intensity=0.56",
+    "target": "There is an equal mix of embarrassment and disapproval."
+  },
+  {
+    "input": "emotions: fear=0.67 excitement=0.06 joy=0.02 intensity=0.36",
+    "target": "There is a soft sense of fear."
+  },
+  {
+    "input": "emotions: anger=0.46 pride=0.01 intensity=0.32",
+    "target": "anger is the primary emotion, and it feels soft."
+  },
+  {
+    "input": "emotions: neutral=0.85 intensity=0.02",
+    "target": "There is no strong emotion detected; the mood is calm and even."
+  },
+  {
+    "input": "emotions: nervousness=0.77 realization=0.53 intensity=0.55",
+    "target": "The heart of the feeling is nervousness, softened by a touch of realization."
+  },
+  {
+    "input": "emotions: admiration=0.53 realization=0.50 intensity=0.53",
+    "target": "It is hard to tell if realization or admiration is stronger; both are present."
+  },
+  {
+    "input": "emotions: neutral=0.94 intensity=0.11",
+    "target": "There is no strong emotion detected; the mood is calm and even."
+  },
+  {
+    "input": "emotions: neutral=0.88 intensity=0.11",
+    "target": "There is no strong emotion detected; the mood is calm and even."
+  },
+  {
+    "input": "emotions: caring=0.82 admiration=0.63 intensity=0.71",
+    "target": "The heart of the feeling is caring, softened by a touch of admiration."
+  },
+  {
+    "input": "emotions: grief=0.78 confusion=0.07 intensity=0.68",
+    "target": "This carries a strong feeling of grief."
+  },
+  {
+    "input": "emotions: disappointment=0.41 pride=0.38 intensity=0.40",
+    "target": "A tension between disappointment and pride defines the emotional tone."
+  },
+  {
+    "input": "emotions: relief=0.67 optimism=0.54 intensity=0.31",
+    "target": "The feeling leans toward relief, but optimism is also clearly present."
+  },
+  {
+    "input": "emotions: fear=0.66 surprise=0.64 intensity=0.74",
+    "target": "There is an equal mix of surprise and fear."
+  },
+  {
+    "input": "emotions: anger=0.42 disappointment=0.41 intensity=0.40",
+    "target": "The feeling is split between disappointment and anger."
+  },
+  {
+    "input": "emotions: caring=0.75 intensity=0.87",
+    "target": "The emotion here is clearly caring, felt intensely."
+  },
+  {
+    "input": "emotions: excitement=0.78 fear=0.04 intensity=0.27",
+    "target": "There is a moderate sense of excitement."
+  },
+  {
+    "input": "emotions: joy=0.84 realization=0.34 intensity=0.71",
+    "target": "There is a blend of joy and realization, with joy taking the lead."
+  },
+  {
+    "input": "emotions: confusion=0.46 optimism=0.40 desire=0.27 intensity=0.87",
+    "target": "The feeling is multifaceted: confusion leads, with optimism and desire following."
+  },
+  {
+    "input": "emotions: relief=0.63 curiosity=0.35 embarrassment=0.32 intensity=0.77",
+    "target": "Multiple emotions are at play: relief, curiosity, and embarrassment, creating a complex emotional landscape."
+  },
+  {
+    "input": "emotions: fear=0.80 curiosity=0.45 amusement=0.39 intensity=0.76",
+    "target": "Multiple emotions are at play: fear, curiosity, and amusement, creating a complex emotional landscape."
+  },
+  {
+    "input": "emotions: joy=0.92 intensity=0.80",
+    "target": "The emotion here is clearly joy, felt overwhelmingly."
+  },
+  {
+    "input": "emotions: disappointment=0.71 gratitude=0.10 love=0.05 intensity=0.53",
+    "target": "The tone is unmistakably disappointment, at a present level."
+  },
+  {
+    "input": "emotions: confusion=0.55 desire=0.41 joy=0.12 intensity=0.49",
+    "target": "One senses confusion most strongly, accompanied by desire and a hint of joy."
+  },
+  {
+    "input": "emotions: admiration=0.55 excitement=0.54 intensity=0.66",
+    "target": "Both excitement and admiration are present in similar measure."
+  },
+  {
+    "input": "emotions: neutral=0.77 intensity=0.14",
+    "target": "The emotional tone is relatively neutral."
+  },
+  {
+    "input": "emotions: sadness=0.52 caring=0.08 pride=0.07 intensity=0.82",
+    "target": "There is a powerful sense of sadness."
+  },
+  {
+    "input": "emotions: admiration=0.42 fear=0.08 intensity=0.34",
+    "target": "admiration is the primary emotion, and it feels moderate."
+  },
+  {
+    "input": "emotions: confusion=0.72 surprise=0.30 fear=0.07 intensity=0.77",
+    "target": "It feels a blend of confusion and surprise, blending confusion, surprise, and traces of fear."
+  },
+  {
+    "input": "emotions: embarrassment=0.90 curiosity=0.27 intensity=0.41",
+    "target": "It feels a blend of embarrassment and curiosity, with embarrassment slightly stronger than curiosity."
+  },
+  {
+    "input": "emotions: disapproval=0.94 intensity=0.24",
+    "target": "disapproval is the primary emotion, and it feels gentle."
+  },
+  {
+    "input": "emotions: realization=0.48 caring=0.47 intensity=0.71",
+    "target": "realization and caring coexist in a balanced way."
+  },
+  {
+    "input": "emotions: joy=0.67 surprise=0.62 intensity=0.67",
+    "target": "Neither joy nor surprise dominates; they are equally felt."
+  },
+  {
+    "input": "emotions: caring=0.45 optimism=0.31 intensity=0.48",
+    "target": "The feeling leans toward caring, but optimism is also clearly present."
+  },
+  {
+    "input": "emotions: realization=0.75 excitement=0.43 relief=0.31 intensity=0.47",
+    "target": "Multiple emotions are at play: realization, excitement, and relief, creating a complex emotional landscape."
+  },
+  {
+    "input": "emotions: excitement=0.89 confusion=0.78 intensity=0.34",
+    "target": "excitement is the primary emotion, accompanied by confusion."
+  },
+  {
+    "input": "emotions: approval=0.82 sadness=0.46 intensity=0.55",
+    "target": "The mood is mainly approval, with undertones of sadness."
+  },
+  {
+    "input": "emotions: realization=0.84 surprise=0.09 intensity=0.40",
+    "target": "A moderate undercurrent of realization runs through this."
+  },
+  {
+    "input": "emotions: approval=0.77 sadness=0.07 nervousness=0.06 intensity=0.39",
+    "target": "approval is the primary emotion, and it feels soft."
+  },
+  {
+    "input": "emotions: disappointment=0.82 caring=0.04 intensity=0.78",
+    "target": "disappointment is the primary emotion, and it feels deep."
+  },
+  {
+    "input": "emotions: annoyance=0.66 remorse=0.20 intensity=0.70",
+    "target": "It feels a blend of annoyance and remorse, with annoyance slightly stronger than remorse."
+  },
+  {
+    "input": "emotions: optimism=0.63 approval=0.28 intensity=0.77",
+    "target": "A mix of optimism and approval is felt, though optimism dominates."
+  },
+  {
+    "input": "emotions: embarrassment=0.86 grief=0.51 intensity=0.48",
+    "target": "The feeling leans toward embarrassment, but grief is also clearly present."
+  },
+  {
+    "input": "emotions: embarrassment=0.73 sadness=0.06 gratitude=0.03 intensity=0.86",
+    "target": "The tone is unmistakably embarrassment, at a very strong level."
+  },
+  {
+    "input": "emotions: caring=0.45 disgust=0.34 intensity=0.41",
+    "target": "caring is the primary emotion, accompanied by disgust."
+  },
+  {
+    "input": "emotions: disgust=0.78 nervousness=0.55 disapproval=0.45 intensity=0.71",
+    "target": "It feels a blend of disgust and nervousness, blending disgust, nervousness, and traces of disapproval."
+  }
+]

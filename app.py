@@ -236,8 +236,12 @@ def load_all_models():
     s1_model.eval()
 
     # ---------- Load Stage 2 Model ----------
-    s2_tokenizer = AutoTokenizer.from_pretrained("t5-small")
-    s2_model = T5ForConditionalGeneration.from_pretrained(STAGE2_MODEL_DIR)
+    if os.path.exists(STAGE2_MODEL_DIR):
+        s2_tokenizer = AutoTokenizer.from_pretrained(STAGE2_MODEL_DIR, local_files_only=True)
+        s2_model = T5ForConditionalGeneration.from_pretrained(STAGE2_MODEL_DIR, local_files_only=True)
+    else:
+        s2_tokenizer = AutoTokenizer.from_pretrained("t5-small")
+        s2_model = T5ForConditionalGeneration.from_pretrained("t5-small")
     s2_model.to(device)
     s2_model.eval()
 

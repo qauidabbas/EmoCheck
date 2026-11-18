@@ -22,7 +22,13 @@ from src.stage1_train import Stage1Trainer
 def load_goemotions():
     print("📥 Loading GoEmotions dataset from HuggingFace...")
     from datasets import load_dataset
-    dataset = load_dataset("dair-ai/go_emotions", "full")
+    try:
+        dataset = load_dataset("google-research-datasets/go_emotions")
+    except Exception:
+        try:
+            dataset = load_dataset("dair-ai/go_emotions", "full")
+        except Exception:
+            dataset = load_dataset("go_emotions")
     
     texts, labels = [], []
     for split in ["train", "validation"]:
@@ -47,12 +53,28 @@ def prepare_data(texts, labels, vocab, cfg):
     return train_loader, val_loader
 
 def main():
+    import argparse
+    parser = argparse.ArgumentParser(description="Train Stage 1 Emotion Detector")
+    parser.add_argument("--epochs", type=int, default=None, help="Number of training epochs")
+    parser.add_argument("--max_samples", type=int, default=None, help="Maximum samples to use (for quick training)")
+    parser.add_argument("--batch_size", type=int, default=None, help="Batch size")
+    args = parser.parse_args()
+
     cfg = Stage1Config()
+    if args.epochs is not None:
+        cfg.num_epochs = args.epochs
+    if args.batch_size is not None:
+        cfg.batch_size = args.batch_size
+
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     print(f"🚀 Training on: {device}")
 
     # 1. Load data
     texts, labels = load_goemotions()
+    if args.max_samples is not None and len(texts) > args.max_samples:
+        texts = texts[:args.max_samples]
+        labels = labels[:args.max_samples]
+        print(f"Subsampled to {len(texts)} samples.")
     print(f"✅ Loaded {len(texts)} samples.")
 
     # 2. Build vocabulary
@@ -81,6 +103,23 @@ def main():
     # 5. Train
     trainer = Stage1Trainer(model, cfg, device)
     trainer.train(train_loader, val_loader)
+
+    # 6. Save config.json (required by app.py for model loading)
+    config_data = {
+        "stage1": {
+            "embed_dim": cfg.embed_dim,
+            "hidden_dim": cfg.hidden_dim,
+            "num_classes": cfg.num_classes,
+            "num_lstm_layers": cfg.num_lstm_layers,
+            "dropout": cfg.dropout,
+            "max_seq_len": cfg.max_seq_len,
+        }
+    }
+    import json
+    config_path = os.path.join(os.path.dirname(cfg.model_path), "config.json")
+    with open(config_path, "w") as f:
+        json.dump(config_data, f, indent=2)
+    print(f"  ✓ Config saved to {config_path}")
 
     print("\n✅ Stage 1 training complete. Checkpoints & history saved.")
 

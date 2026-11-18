@@ -62,5 +62,5 @@ class Stage2Config:
     num_epochs: int = 10
     patience: int = 3
     num_synthetic_samples: int = 8000
-    model_path: str = "emotion_project/checkpoints/stage2_t5/"
-    dataset_path: str = "emotion_project/data/stage2_synthetic.json"
+    model_path: str = "checkpoints/stage2_t5/"
+    dataset_path: str = "data/stage2_synthetic.json"

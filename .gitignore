@@ -37,15 +37,18 @@ Thumbs.db
 # ------------------------------
 # Model Checkpoints / Large Files
 # ------------------------------
-checkpoints/
+checkpoints/*
+!checkpoints/config.json
 *.pt
 *.pth
 *.bin
+*.safetensors
 
 # ------------------------------
 # Data (optional - keep if large)
 # ------------------------------
-data/
+data/*
+!data/stage2_synthetic.json
 
 # ------------------------------
 # HuggingFace Cache

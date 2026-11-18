@@ -1,0 +1,10 @@
+{
+  "stage1": {
+    "embed_dim": 300,
+    "hidden_dim": 256,
+    "num_classes": 28,
+    "num_lstm_layers": 2,
+    "dropout": 0.3,
+    "max_seq_len": 128
+  }
+}
